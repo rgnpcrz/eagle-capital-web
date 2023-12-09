@@ -11,7 +11,9 @@ export default function OurCompany() {
               <p>Our Company</p>
               <hr className="w-16 h-0.5 bg-primary flex-1 ms-3"></hr>
             </div>
-            <button className="px-3 py-1.5 border-2 rounded-full border-primary">View more</button>
+            <button className="px-3 py-1.5 border-2 rounded-full border-primary flex">
+              View more <IconArrowRight size={18} />
+            </button>
           </div>
           <div className="max-w-lg mx-auto py-24 flex flex-col gap-12 items-center text-center">
             <h1 className="text-4xl">What we offer?</h1>
