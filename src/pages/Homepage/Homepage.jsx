@@ -1,4 +1,5 @@
 import Banner from "./components/Banner.jsx";
+import GetInTouch from "./components/GetInTouch.jsx";
 import LatestFromUs from "./components/LatestFromUs.jsx";
 import News from "./components/News.jsx";
 import OurCompany from "./components/OurCompany.jsx";
@@ -12,6 +13,7 @@ export default function Homepage() {
       <News />
       <OurCompany />
       <LatestFromUs />
+      <GetInTouch />
     </>
   );
 }
