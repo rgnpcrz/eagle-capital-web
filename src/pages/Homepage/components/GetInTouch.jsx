@@ -8,21 +8,26 @@ export default function GetInTouch() {
         <div className="max-w-screen-lg mx-auto px-3 py-20 text-sm">
           <div className="flex gap-5">
             <form className=" bg-silver text-dark w-2/4 p-4">
-              <div class="grid grid-cols-2 gap-4 mb-4">
+              <div className="grid grid-cols-2 gap-4 mb-4">
                 <div>
-                  <input type="text" id="firstName" name="firstName" class="border-dark border-solid border-2  px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="First Name" />
+                  <input type="text" id="firstName" name="firstName" className="border-dark border-solid border-2  px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="First Name" />
                 </div>
                 <div>
-                  <input type="text" id="lastName" name="lastName" class="border-dark border-solid border-2 px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="Last Name" />
+                  <input type="text" id="lastName" name="lastName" className="border-dark border-solid border-2 px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="Last Name" />
                 </div>
               </div>
-              <div class="mb-4">
-                <input type="email" id="email" name="email" class="border-dark border-solid border-2 px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="E-mail" />
+              <div className="mb-4">
+                <input type="email" id="email" name="email" className="border-dark border-solid border-2 px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="E-mail" />
               </div>
-              <div class="mb-4">
-                <textarea id="message" name="message" class="border-dark border-solid border-2 px-3 py-2 w-full h-32 resize-none focus:outline-none focus:border-gold" placeholder="Message"></textarea>
+              <div className="mb-4">
+                <textarea
+                  id="message"
+                  name="message"
+                  className="border-dark border-solid border-2 px-3 py-2 w-full h-32 resize-none focus:outline-none focus:border-gold"
+                  placeholder="Message"
+                ></textarea>
               </div>
-              <button type="submit" class="bg-dark hover:bg-secondary duration-200 w-full text-white font-bold py-2 px-4 focus:outline-none">
+              <button type="submit" className="bg-dark hover:bg-secondary duration-200 w-full text-white font-bold py-2 px-4 focus:outline-none">
                 Submit
               </button>
             </form>
