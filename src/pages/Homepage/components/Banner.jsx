@@ -4,10 +4,15 @@ export default function Banner() {
   return (
     <>
       <div className="bg-primary text-white">
-        <div className="max-w-screen-lg mx-auto px-3 py-12">
-          <div className="max-w-lg">
-            <h1 className="text-4xl">{"Landing page TEXT, HEADER will be here".toUpperCase()}</h1>
-            <h1 className="ps-10 py-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo dolore optio voluptate deleniti deserunt quos numquam quas. Optio, dolore.</h1>
+        <div className="page-container mx-auto px-3 py-12">
+          <div className="py-12  pr-24">
+            <div className="space-y-7 font-light text-4xl md:text-8xl">
+              <h1 className="">Eagle Capital,</h1>
+              <h1 className="">Investing in the future</h1>
+            </div>
+            <h1 className="text-2xl font-light  max-w-[800px] ps-12 ml-auto py-12">
+              Eagle Capital is a distinguished M&A and investment firm with a strategic focus on secure investments within South Eastern Europe and the United States.
+            </h1>
           </div>
           <div>
             <img className="w-full" src={bannerImg} />

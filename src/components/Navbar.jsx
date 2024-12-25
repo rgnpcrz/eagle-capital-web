@@ -9,7 +9,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 60) {
+      if (scrollTop > -1) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -24,8 +24,8 @@ export default function Navbar() {
   }, []);
   return (
     <>
-      <div className={"w-full fixed duration-200 " + (scrolled ? "bg-primary text-white" : "bg-white text-dark")}>
-        <div className="max-w-screen-lg mx-auto px-3">
+      <div className={"w-full fixed duration-200 overflow-hidden " + (scrolled ? "bg-primary text-white" : "bg-white text-dark")}>
+        <div className="page-container mx-auto px-3">
           <div className="h-16 flex justify-between items-center">
             <Link to="/">
               <img src={scrolled ? logoWhite : logo} className="w-44" />

@@ -6,8 +6,8 @@ export default function News() {
     <>
       <div className="">
         <div className="max-w-screen-lg mx-auto px-3 py-12 text-sm">
-          <div className="flex gap-12">
-            <div className="w-2/5">
+          <div className="flex flex-col md:flex-row gap-12">
+            <div className="md:w-2/5">
               <img className="w-full pb-6" src={news} />
               <div className="flex">
                 <div>

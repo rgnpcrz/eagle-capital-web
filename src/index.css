@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* debuggers */
+.dbg-red {
+  @apply border border-red-400;
+}
+.dbg-green {
+  @apply border border-green-400;
+}
+
+/* containers */
+.homepage-container {
+  @apply mx-auto  max-w-[1280px];
+}
+.page-container {
+  @apply mx-auto  max-w-[1280px];
 }
