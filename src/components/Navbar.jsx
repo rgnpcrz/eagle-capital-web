@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(true);
+  const [menu, setMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +23,10 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const toggleMenu = () => {
+    setMenu(!menu);
+  };
   return (
     <>
       <div className={`w-full fixed duration-200 overflow-hidden ${scrolled ? "bg-primary text-white" : "bg-white text-dark"}`}>
@@ -36,6 +41,9 @@ export default function Navbar() {
               <Link to="/about-us">News</Link>
               <Link to="/about-us">Credit</Link>
               <Link to="/about-us">Contact Us</Link>
+              <button type="button" className="" onClick={toggleMenu}>
+                Menu - {JSON.stringify(menu)}
+              </button>
             </div>
           </div>
         </div>
