@@ -10,17 +10,21 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 80) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
+      setScrolled(scrollTop > 80);
+    };
+
+    const handleResize = () => {
+      if (window.innerWidth > 1024) {
+        setMenu(false);
       }
     };
 
     window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
