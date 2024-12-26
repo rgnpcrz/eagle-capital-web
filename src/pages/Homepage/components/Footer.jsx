@@ -9,7 +9,7 @@ export default function Footer() {
           <div className=" grid grid-cols-3 gap-4">
             <div>
               <div className="h-16">
-                <img src={logoWhite} className="w-52 -translate-y-2" />
+                <img src={logoWhite} className="w-52  mb-2 -mt-2" />
               </div>
               <p className="w-52 text-base">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..</p>
             </div>

@@ -22,10 +22,10 @@ export default function LatestFromUs() {
             </div>
           </div>
 
-          <div className=" grid md:grid-cols-2 justify-between gap-8 ">
-            <div className="flex dbg-red flex-col justify-between">
+          <div className="grid md:grid-cols-2 justify-between gap-8">
+            <div className="flex  flex-col justify-between">
               <div className="">
-                <h1 className="text-4xl   ">Our mission</h1>
+                <h1 className="text-4xl">Our mission</h1>
                 <p className=" text-base py-5">
                   Our mission is to generate substantial returns for our business partners and investors through disciplined investments in stable and profitable sectors. We aim to capitalize on
                   unique opportunities in the regions we serve by leveraging our extensive network and deep market understanding.
@@ -40,8 +40,8 @@ export default function LatestFromUs() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center dbg-red">
-              <img className="bg-cover w-full h-full" src={latest} />
+            <div className="flex items-center ">
+              <img className="object-cover w-full h-full" src={latest} />
             </div>
           </div>
           {/* <div className="flex flex-col gap-24  ">

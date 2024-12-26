@@ -57,7 +57,7 @@ export default function OurCompany() {
               </div>
               <img src={offerImg} />
             </div>
-            <div className="border border-4 border-primary flex justify-between">
+            <div className=" border-4 border-primary flex justify-between">
               <div className="p-7  h-100 flex flex-col justify-between">
                 <h1 className="text-4xl">Credit</h1>
                 <h1 className=" text-base pr-24 ">

@@ -30,7 +30,16 @@ export default function Navbar() {
   return (
     <>
       {/* <div className={`w-full fixed duration-200 overflow-hidden ${scrolled ? "bg-primary text-white" : "bg-white text-dark"}`}> */}
-      {/* <div className={`w-full h-screen fixed duration-200 overflow-hidden bg-primary text-white  `}></div> */}
+      <div className={`${menu ? "ml-0" : "ml-[100%]"} w-full p-5 border-white border-t  top-16 bottom-0 fixed duration-300 overflow-hidden bg-primary text-white  `}>
+        <div className=" gap-5   flex flex-col " onClick={toggleMenu}>
+          <Link to="/">Homepage</Link>
+          <Link to="/about-us">News</Link>
+          <Link to="/about-us">Real Estate</Link>
+          <Link to="/about-us">Finance</Link>
+          <Link to="/about-us">Technology</Link>
+          <Link to="/about-us">Meet the Team</Link>
+        </div>
+      </div>
       <div className={`w-full fixed duration-200 overflow-hidden bg-primary text-white  `}>
         <div className="page-container mx-auto px-3">
           {/* <div className={`${scrolled ? "h-16" : "h-20"} duration-200 flex justify-between items-center`}> */}
@@ -49,7 +58,42 @@ export default function Navbar() {
             </div>
             <div className="flex lg:hidden gap-10">
               <button type="button" className="" onClick={toggleMenu}>
-                Menu - {JSON.stringify(menu)}
+                {menu ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="icon icon-tabler icons-tabler-outline icon-tabler-x"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                  </svg>
+                )}
               </button>
             </div>
           </div>

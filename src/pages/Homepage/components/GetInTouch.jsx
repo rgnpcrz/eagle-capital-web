@@ -4,10 +4,13 @@ import { IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
 export default function GetInTouch() {
   return (
     <>
+      <div className="page-container  py-16 text-4xl">
+        <h1>Want to know more about us?</h1>
+      </div>
       <div className=" bg-primary text-white">
-        <div className="max-w-screen-lg mx-auto px-3 py-20 text-sm">
+        <div className="page-container mx-auto px-3 py-20 text-sm">
           <div className="grid  md:grid-cols-2 gap-5">
-            <div className=" mx-auto max-w-[500px] flex gap-5 flex-1 flex-col justify-between">
+            <div className=" md:mx-0 mx-auto max-w-[500px] flex gap-5 flex-1 flex-col justify-between">
               <div className="pr-24">
                 <h1 className="text-4xl pb-5  ">GET IN TOUCH</h1>
                 <h1 className=" text-base">
@@ -30,7 +33,7 @@ export default function GetInTouch() {
               </div>
             </div>
             <div className="order-last">
-              <form className="mx-auto max-w-[500px] bg-silver text-dark  p-4">
+              <form className="md:mr-0 mx-auto max-w-[500px] bg-silver text-dark  p-4">
                 <div className="grid  grid-cols-2 gap-4 mb-4">
                   <div>
                     <input type="text" id="firstName" name="firstName" className="border-dark border-solid border-2  px-3 py-2 w-full focus:outline-none focus:border-gold" placeholder="First Name" />
