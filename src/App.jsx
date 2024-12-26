@@ -8,13 +8,14 @@ import RealEstate from "./pages/Categories/RealEstate/RealEstate.jsx";
 import Finance from "./pages/Categories/Finance/Finance.jsx";
 import Technology from "./pages/Categories/Technology/Technology.jsx";
 import MeetTheTeam from "./pages/MeetTheTeam/MeetTheTeam.jsx";
+import ScrollToTop from "./utils/scrollToTop.js";
 
 export default function App() {
   return (
     <>
       <div className="">
+        <ScrollToTop />
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about-us" element={<AboutUs />} />
