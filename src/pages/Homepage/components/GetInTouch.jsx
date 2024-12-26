@@ -1,11 +1,39 @@
 import React from "react";
-import { IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
+import { IconArrowRight, IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 export default function GetInTouch() {
   return (
     <>
-      <div className="page-container  py-16 text-4xl">
-        <h1>Want to know more about us?</h1>
+      <div className="page-container  py-20 text-4xl">
+        <div className="md:pl-[10%] lg:pl-[20%] text-3xl md:text-4xl lg:text-5xl">
+          <h1 className="font-serif text-primary ">Want to know more about us?</h1>
+          <h1 className="font-serif flex gap-5 text-gold ">
+            Meet the team behind Eagle Capital
+            {/* <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={24}
+              height={24}
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M5 12l14 0" />
+              <path d="M13 18l6 -6" />
+              <path d="M13 6l6 6" />
+            </svg> */}
+          </h1>
+          <Link to="/meet-the-team">
+            <button className="px-3 py-1.5 border-2 mt-5 text-base items-center gap-2 hover:gap-5 duration-150 rounded-full border-primary flex">
+              View more <IconArrowRight size={18} />
+            </button>
+          </Link>
+        </div>
       </div>
       <div className=" bg-primary text-white">
         <div className="page-container mx-auto px-3 py-20 text-sm">

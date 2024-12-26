@@ -13,6 +13,10 @@ export default {
         silver: "#bbbbbc",
         light: "#ffffff",
       },
+      fontFamily: {
+        merriweather: ["Merriweather", "serif"], // Add Merriweather as a custom font
+        serif: ["Merriweather", "serif"], // Add Merriweather as a custom font
+      },
     },
   },
   plugins: [],

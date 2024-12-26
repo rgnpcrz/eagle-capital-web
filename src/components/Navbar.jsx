@@ -37,11 +37,12 @@ export default function Navbar() {
       <div className={`${menu ? "ml-0" : "ml-[100%]"} w-full p-5 z-[9999998] border-white border-t  top-16 bottom-0 fixed duration-300 overflow-hidden bg-primary text-white  `}>
         <div className=" gap-5   flex flex-col " onClick={toggleMenu}>
           <Link to="/">Homepage</Link>
-          <Link to="/about-us">News</Link>
-          <Link to="/about-us">Real Estate</Link>
-          <Link to="/about-us">Finance</Link>
-          <Link to="/about-us">Technology</Link>
-          <Link to="/about-us">Meet the Team</Link>
+          {/* <Link to="/news">News</Link>
+          <Link to="/real-estate">Real Estate</Link>
+          <Link to="/finance">Finance</Link>
+          <Link to="/technology">Technology</Link> */}
+          <Link to="/about-us">About us</Link>
+          <Link to="/meet-the-team">Meet the Team</Link>
         </div>
       </div>
       <div className={`w-full fixed duration-200 overflow-hidden bg-primary text-white z-[9999999]  `}>
@@ -54,11 +55,12 @@ export default function Navbar() {
             </Link>
             <div className=" gap-10 hidden lg:flex ">
               <Link to="/">Homepage</Link>
-              <Link to="/about-us">News</Link>
-              <Link to="/about-us">Real Estate</Link>
-              <Link to="/about-us">Finance</Link>
-              <Link to="/about-us">Technology</Link>
-              <Link to="/about-us">Meet the Team</Link>
+              {/* <Link to="/news">News</Link>
+          <Link to="/real-estate">Real Estate</Link>
+          <Link to="/finance">Finance</Link>
+          <Link to="/technology">Technology</Link> */}
+              <Link to="/about-us">About us</Link>
+              <Link to="/meet-the-team">Meet the Team</Link>
             </div>
             <div className="flex lg:hidden gap-10">
               <button type="button" className="" onClick={toggleMenu}>
