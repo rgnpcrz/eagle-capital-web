@@ -3,7 +3,7 @@ export default function MeetTheTeam() {
     <>
       <div className="bg-primary  text-white ">
         <div className="page-container mx-auto flex flex-col ">
-          <div className="flex-1 flex-col min-h-screen -mt-16 justify-center flex  pr-24">
+          <div className="flex-1 flex-col min-h-screen -mt-16 pt-16 justify-center flex  md:pr-24">
             <div className="">
               <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
                 <h1 className="">Meet the team that’s changing the way people live.</h1>

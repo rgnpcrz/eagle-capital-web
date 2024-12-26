@@ -6,7 +6,7 @@ export default function AboutUs() {
       <div className="">
         <div className="bg-primary  text-white  ">
           <div className="page-container mx-auto flex flex-col py-12">
-            <div className="flex-1 flex-col min-h-screen -mt-16 justify-center flex  pr-24">
+            <div className="flex-1 flex-col min-h-screen -mt-16 pt-16 justify-center flex md:pr-24">
               <div className="">
                 <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
                   <h1 className="">More about Eagle Capital</h1>

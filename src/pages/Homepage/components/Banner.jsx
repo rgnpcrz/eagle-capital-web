@@ -4,8 +4,8 @@ export default function Banner() {
   return (
     <>
       <div className="bg-primary  text-white ">
-        <div className="page-container mx-auto flex flex-col px-3  -mt-16  min-h-screen  py-12">
-          <div className="flex-1 flex-col  justify-center flex  pr-24">
+        <div className="page-container mx-auto flex flex-col px-3  -mt-16 pt-16  min-h-screen  py-12">
+          <div className="flex-1 flex-col  justify-center flex  md:pr-24">
             <div className="">
               <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
                 <h1 className="">Eagle Capital,</h1>
@@ -16,13 +16,13 @@ export default function Banner() {
               </h1>
             </div>
           </div>
-          <div className="flex justify-between ">
+          {/* <div className="flex justify-between ">
             <div>About us</div>
             <div>News</div>
             <div>Real estate</div>
             <div>Finance</div>
             <div>Technology</div>
-          </div>
+          </div> */}
           {/* <div>
             <img className="w-full" src={bannerImg} />
           </div> */}
