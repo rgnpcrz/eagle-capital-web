@@ -1,15 +1,16 @@
 import React from "react";
-import logoWhite from "./../../../assets/4-white.png";
+import logoWhite from "./../assets/4-white.png";
 
 export default function Footer() {
   return (
     <>
       <div className=" bg-primary text-white">
-        <div className="max-w-screen-lg mx-auto px-3 pt-12 text-sm">
+        <div className="page-container mx-auto px-3 pt-12 text-sm">
+          <hr className="h-0.5 border-gold mb-16"></hr>
           <div className=" grid grid-cols-3 gap-4">
             <div>
               <div className="h-16">
-                <img src={logoWhite} className="w-52 -translate-y-2" />
+                <img src={logoWhite} className="w-52  mb-2 -mt-2" />
               </div>
               <p className="w-52 text-base">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..</p>
             </div>
@@ -32,7 +33,7 @@ export default function Footer() {
           </div>
           <hr className="h-0.5 border-gold mt-16"></hr>
           <div className="flex justify-between py-6 text-base text-gold">
-            <p>Copyright © 2023</p>
+            <p>Copyright © 2025</p>
             <div className="flex gap-5">
               <p>Privacy Policy</p>
               <p>Terms & Services</p>

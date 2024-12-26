@@ -5,10 +5,10 @@ export default function LatestFromUs() {
   return (
     <>
       <div className=" bg-primary text-white">
-        <div className="max-w-screen-lg mx-auto px-3 py-12 text-sm">
+        <div className="page-container mx-auto px-3 py-12 text-sm">
           <div className="flex justify-between items-center pb-12">
             <div className="flex items-center w-40">
-              <p>Latest from us</p>
+              <p>Our mission</p>
               <hr className="w-16 h-0.5 bg-white flex-1 ms-3"></hr>
             </div>
             <div className="flex gap-5">
@@ -22,13 +22,36 @@ export default function LatestFromUs() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-24">
-            <div className="border border-4 border-primary flex justify-between">
-              <div className=" h-100 flex flex-col justify-between">
+          <div className="grid md:grid-cols-2 justify-between gap-8">
+            <div className="flex  flex-col justify-between">
+              <div className="">
+                <h1 className="text-4xl">Our mission</h1>
+                <p className=" text-base py-5 lg:pr-32">
+                  Our mission is to generate substantial returns for our business partners and investors through disciplined investments in stable and profitable sectors. We aim to capitalize on
+                  unique opportunities in the regions we serve by leveraging our extensive network and deep market understanding.
+                </p>
+              </div>
+              <div className="flex items-center">
+                <p className="pr-3 text-base ">Learn more</p>
+                <div>
+                  <button className="border-2 p-0.5 border-white rounded-full">
+                    <IconArrowRight size={18} />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center ">
+              <img className="object-cover w-full h-full" src={latest} />
+            </div>
+          </div>
+          {/* <div className="flex flex-col gap-24  ">
+            <div className=" border-4 border-primary  flex justify-between">
+              <div className=" h-100 flex dbg-red flex-col justify-between">
                 <div className="pr-24">
-                  <h1 className="text-4xl pb-5  ">Header text</h1>
+                  <h1 className="text-4xl pb-5  ">Our mission</h1>
                   <h1 className=" text-base">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, whe Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Our mission is to generate substantial returns for our business partners and investors through disciplined investments in stable and profitable sectors. We aim to capitalize on
+                    unique opportunities in the regions we serve by leveraging our extensive network and deep market understanding.
                   </h1>
                 </div>
                 <div className="flex items-center">
@@ -42,7 +65,7 @@ export default function LatestFromUs() {
               </div>
               <img src={latest} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -4,12 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#041e2b",
-        secondary: "#042842",
+        // primary: "#041e2b",
+        // secondary: "#042842",
+        primary: "#042842",
+        secondary: "#041e2b",
         gold: "#bbaa96",
         dark: "#000000",
         silver: "#bbbbbc",
         light: "#ffffff",
+      },
+      fontFamily: {
+        merriweather: ["Merriweather", "serif"], // Add Merriweather as a custom font
+        serif: ["Merriweather", "serif"], // Add Merriweather as a custom font
       },
     },
   },

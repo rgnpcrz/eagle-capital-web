@@ -2,7 +2,7 @@ export default function TheFirm() {
   return (
     <>
       <div className="">
-        <div className="max-w-screen-lg mx-auto px-3 py-12 text-sm">
+        <div className="page-container mx-auto px-3 py-12 text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center w-40">
               <p>The Firm</p>
@@ -10,11 +10,11 @@ export default function TheFirm() {
             </div>
             <button className="px-3 py-1.5 border-2 rounded-full border-primary">View more</button>
           </div>
-          <div className="max-w-lg mx-auto py-24 flex flex-col gap-12 items-center text-center">
-            <h1 className="text-4xl">What we do?</h1>
-            <h1 className="text-center text-base">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-              not only five centuries
+          <div className=" mx-auto py-24 max-w-3xl flex flex-col gap-8 items-center text-center">
+            <h1 className="text-4xl">About us</h1>
+            <h1 className="text-center text-xl">
+              Eagle Capital is a distinguished M&A and investment firm with a strategic focus on secure investments within South Eastern Europe and the United States. Our primary investment targets
+              are licensed financial institutions, prime real estate in high-end coastal areas of the Mediterranean and innovative projects in the renewable energy sector.
             </h1>
           </div>
         </div>
