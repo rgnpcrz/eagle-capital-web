@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
           <hr className="h-0.5 border-gold mt-16"></hr>
           <div className="flex justify-between py-6 text-base text-gold">
-            <p>Copyright © 2023</p>
+            <p>Copyright © 2024</p>
             <div className="flex gap-5">
               <p>Privacy Policy</p>
               <p>Terms & Services</p>
