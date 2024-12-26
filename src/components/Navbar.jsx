@@ -34,7 +34,7 @@ export default function Navbar() {
   return (
     <>
       {/* <div className={`w-full fixed duration-200 overflow-hidden ${scrolled ? "bg-primary text-white" : "bg-white text-dark"}`}> */}
-      <div className={`${menu ? "ml-0" : "ml-[100%]"} w-full p-5 border-white border-t  top-16 bottom-0 fixed duration-300 overflow-hidden bg-primary text-white  `}>
+      <div className={`${menu ? "ml-0" : "ml-[100%]"} w-full p-5 z-[9999998] border-white border-t  top-16 bottom-0 fixed duration-300 overflow-hidden bg-primary text-white  `}>
         <div className=" gap-5   flex flex-col " onClick={toggleMenu}>
           <Link to="/">Homepage</Link>
           <Link to="/about-us">News</Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
           <Link to="/about-us">Meet the Team</Link>
         </div>
       </div>
-      <div className={`w-full fixed duration-200 overflow-hidden bg-primary text-white  `}>
+      <div className={`w-full fixed duration-200 overflow-hidden bg-primary text-white z-[9999999]  `}>
         <div className="page-container mx-auto px-3">
           {/* <div className={`${scrolled ? "h-16" : "h-20"} duration-200 flex justify-between items-center`}> */}
           <div className={`h-16  duration-200 flex justify-between items-center`}>

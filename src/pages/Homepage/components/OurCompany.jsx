@@ -5,7 +5,7 @@ export default function OurCompany() {
   return (
     <>
       <div className="">
-        <div className="max-w-screen-lg mx-auto px-3 py-12 text-sm">
+        <div className="page-container mx-auto px-3 py-12 text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center w-40">
               <p>Our Company</p>
@@ -23,38 +23,45 @@ export default function OurCompany() {
             </h1> */}
           </div>
           <div className="grid grid-cols-4 border border-primary">
-            <div className="col-span-2 border border-primary p-4">
-              <h1 className="text-3xl">Companies</h1>
-            </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/beverly-park.png" />
+              <p className="absolute top-4 left-4">Real Estate</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/countour-global.png" />
+              <p className="absolute top-4 left-4">Technology</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/credins-bank.png" />
+              <p className="absolute top-4 left-4">Finance</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/ephesus.png" />
+              <p className="absolute top-4 left-4">Real Estate</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/evergreen-valley.png" />
+              <p className="absolute top-4 left-4">Real Estate</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/green-medical.png" />
+              <p className="absolute top-4 left-4">Technology</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/noa.png" />
+              <p className="absolute top-4 left-4">Finance</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/prishtina-city-center.png" />
+              <p className="absolute text-white top-4 left-4">Real Estate</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/rbko-head-office.png" />
+              <p className="absolute top-4 left-4">Finance</p>
             </div>
-            <div className="border border-primary">
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/sowi-renewable.png" />
+              <p className="absolute top-4 left-4">Technology</p>
             </div>
           </div>
           {/* <div className="flex flex-col gap-24">

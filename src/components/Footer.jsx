@@ -1,11 +1,11 @@
 import React from "react";
-import logoWhite from "./../../../assets/4-white.png";
+import logoWhite from "./../assets/4-white.png";
 
 export default function Footer() {
   return (
     <>
       <div className=" bg-primary text-white">
-        <div className="max-w-screen-lg mx-auto px-3 pt-12 text-sm">
+        <div className="page-container mx-auto px-3 pt-12 text-sm">
           <div className=" grid grid-cols-3 gap-4">
             <div>
               <div className="h-16">
