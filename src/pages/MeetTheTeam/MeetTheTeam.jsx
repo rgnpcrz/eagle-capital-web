@@ -1,16 +1,18 @@
 export default function MeetTheTeam() {
   return (
     <>
-      <div className="page-container mx-auto flex flex-col py-24">
-        <div className="flex-1 flex-col  justify-center flex  pr-24">
-          <div className="">
-            <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
-              <h1 className="">Meet the team that’s changing the way people live.</h1>
+      <div className="bg-primary  text-white ">
+        <div className="page-container mx-auto flex flex-col ">
+          <div className="flex-1 flex-col min-h-screen -mt-16 justify-center flex  pr-24">
+            <div className="">
+              <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
+                <h1 className="">Meet the team that’s changing the way people live.</h1>
+              </div>
+              <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto pt-12">
+                Our team is dedicated to fostering meaningful connections, bridging gaps, and bringing people closer together. Through innovation and collaboration, we strive to create an impact in
+                the communities we serve.
+              </h1>
             </div>
-            <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto pt-12">
-              Our team is dedicated to fostering meaningful connections, bridging gaps, and bringing people closer together. Through innovation and collaboration, we strive to create an impact in the
-              communities we serve.
-            </h1>
           </div>
         </div>
 

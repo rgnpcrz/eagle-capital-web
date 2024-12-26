@@ -3,21 +3,23 @@ import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 export default function AboutUs() {
   return (
     <>
-      <div className=" ">
-        <div className="page-container mx-auto flex flex-col py-12">
-          <div className="flex-1 flex-col  justify-center flex  pr-24">
-            <div className="">
-              <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
-                <h1 className="">About us</h1>
+      <div className="">
+        <div className="bg-primary  text-white  ">
+          <div className="page-container mx-auto flex flex-col py-12">
+            <div className="flex-1 flex-col min-h-screen -mt-16 justify-center flex  pr-24">
+              <div className="">
+                <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
+                  <h1 className="">More about Eagle Capital</h1>
+                </div>
+                <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto pt-12">
+                  Eagle Capital is a distinguished M&A and investment firm with a strategic focus on secure investments within South Eastern Europe and the United States. Our primary investment
+                  targets are licensed financial institutions, prime real estate in high-end coastal areas of the Mediterranean and innovative projects in the renewable energy sector.
+                </h1>
+                <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto py-12">
+                  Our mission is to generate substantial returns for our business partners and investors through disciplined investments in stable and profitable sectors. We aim to capitalize on
+                  unique opportunities in the regions we serve by leveraging our extensive network and deep market understanding.
+                </h1>
               </div>
-              <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto pt-12">
-                Eagle Capital is a distinguished M&A and investment firm with a strategic focus on secure investments within South Eastern Europe and the United States. Our primary investment targets
-                are licensed financial institutions, prime real estate in high-end coastal areas of the Mediterranean and innovative projects in the renewable energy sector.
-              </h1>
-              <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto py-12">
-                Our mission is to generate substantial returns for our business partners and investors through disciplined investments in stable and profitable sectors. We aim to capitalize on unique
-                opportunities in the regions we serve by leveraging our extensive network and deep market understanding.
-              </h1>
             </div>
           </div>
 
