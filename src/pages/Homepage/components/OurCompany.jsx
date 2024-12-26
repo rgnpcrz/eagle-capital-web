@@ -22,7 +22,11 @@ export default function OurCompany() {
               not only five centuries
             </h1> */}
           </div>
-          <div className="grid grid-cols-4 border border-primary">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 border border-primary">
+            <div className="border border-primary relative">
+              <img className="object-cover aspect-square" src="/images/companies/bobby.png" />
+              <p className="absolute top-4 left-4">Technology</p>
+            </div>
             <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/beverly-park.png" />
               <p className="absolute top-4 left-4">Real Estate</p>
@@ -48,6 +52,10 @@ export default function OurCompany() {
               <p className="absolute top-4 left-4">Technology</p>
             </div>
             <div className="border border-primary relative">
+              <img className="object-cover aspect-square" src="/images/companies/sowi-kosova.png" />
+              <p className="absolute top-4 left-4">Technology</p>
+            </div>
+            <div className="border border-primary relative">
               <img className="object-cover aspect-square" src="/images/companies/noa.png" />
               <p className="absolute top-4 left-4">Finance</p>
             </div>
@@ -64,6 +72,51 @@ export default function OurCompany() {
               <p className="absolute top-4 left-4">Technology</p>
             </div>
           </div>
+          {/* <div className="overflow-x-auto scrollbar-hide snap-x snap-mandatory">
+            <div className="flex gap-4">
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/beverly-park.png" />
+                <p className="absolute top-4 left-4">Real Estate</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/countour-global.png" />
+                <p className="absolute top-4 left-4">Technology</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/credins-bank.png" />
+                <p className="absolute top-4 left-4">Finance</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/ephesus.png" />
+                <p className="absolute top-4 left-4">Real Estate</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/evergreen-valley.png" />
+                <p className="absolute top-4 left-4">Real Estate</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/green-medical.png" />
+                <p className="absolute top-4 left-4">Technology</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/noa.png" />
+                <p className="absolute top-4 left-4">Finance</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/prishtina-city-center.png" />
+                <p className="absolute text-white top-4 left-4">Real Estate</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/rbko-head-office.png" />
+                <p className="absolute top-4 left-4">Finance</p>
+              </div>
+              <div className="min-w-[25%] border border-primary relative snap-center">
+                <img className="object-cover aspect-square" src="/images/companies/sowi-renewable.png" />
+                <p className="absolute top-4 left-4">Technology</p>
+              </div>
+            </div>
+          </div> */}
+
           {/* <div className="flex flex-col gap-24">
             <div className="border border-4 border-primary flex justify-between">
               <div className="p-7 h-100 flex flex-col justify-between">
