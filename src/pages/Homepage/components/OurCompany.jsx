@@ -22,7 +22,42 @@ export default function OurCompany() {
               not only five centuries
             </h1> */}
           </div>
-          <div className="flex flex-col gap-24">
+          <div className="grid grid-cols-4 border border-primary">
+            <div className="col-span-2 border border-primary p-4">
+              <h1 className="text-3xl">Companies</h1>
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/beverly-park.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/countour-global.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/credins-bank.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/ephesus.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/evergreen-valley.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/green-medical.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/noa.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/prishtina-city-center.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/rbko-head-office.png" />
+            </div>
+            <div className="border border-primary">
+              <img className="object-cover aspect-square" src="/images/companies/sowi-renewable.png" />
+            </div>
+          </div>
+          {/* <div className="flex flex-col gap-24">
             <div className="border border-4 border-primary flex justify-between">
               <div className="p-7 h-100 flex flex-col justify-between">
                 <h1 className="text-4xl">Private equity</h1>
@@ -74,7 +109,7 @@ export default function OurCompany() {
               </div>
               <img src={offerImg} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
