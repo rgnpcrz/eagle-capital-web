@@ -8,7 +8,7 @@ export default function AboutUs() {
           <div className="page-container mx-auto flex flex-col py-12">
             <div className="flex-1 flex-col min-h-screen -mt-16 pt-16 justify-center flex md:pr-24">
               <div className="">
-                <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
+                <div className="space-y-4 font-light text-5xl md:text-8xl ">
                   <h1 className="">More about Eagle Capital</h1>
                 </div>
                 <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto pt-12">
