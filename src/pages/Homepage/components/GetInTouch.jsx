@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export default function GetInTouch() {
   return (
     <>
-      <div className="page-container  py-20 text-4xl">
-        <div className="md:pl-[10%] lg:pl-[20%] text-3xl md:text-4xl lg:text-5xl">
-          <h1 className="font-serif text-primary ">Want to know more about us?</h1>
-          <h1 className="font-serif flex gap-5 text-gold ">
+      <div className="page-container py-24 text-4xl">
+        <div className="md:pl-[10%] lg:pl-[20%] space-y-2 text-3xl md:text-4xl lg:text-5xl">
+          <h1 className=" text-primary ">Want to know more about us?</h1>
+          <h1 className=" flex  text-gold ">
             Meet the team behind Eagle Capital
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export default function GetInTouch() {
           </Link>
         </div>
       </div>
-      <div className=" bg-primary text-white">
+      {/* <div className=" bg-primary text-white">
         <div className="page-container mx-auto px-3 py-20 text-sm">
           <div className="grid  md:grid-cols-2 gap-5">
             <div className=" md:mx-0 mx-auto max-w-[500px] flex gap-5 flex-1 flex-col justify-between">
@@ -88,7 +88,7 @@ export default function GetInTouch() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
