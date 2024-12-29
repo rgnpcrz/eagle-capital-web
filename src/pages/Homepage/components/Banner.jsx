@@ -7,7 +7,7 @@ export default function Banner() {
         <div className="page-container mx-auto flex flex-col px-3  -mt-16 pt-16  min-h-screen  py-12">
           <div className="flex-1 flex-col  justify-center flex  md:pr-24">
             <div className="">
-              <div className="space-y-4 font-light text-5xl md:text-8xl font-serif">
+              <div className="space-y-4 font-light text-5xl md:text-8xl">
                 <h1 className="">Eagle Capital,</h1>
                 <h1 className="">Investing in the future</h1>
               </div>
