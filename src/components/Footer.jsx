@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div className=" bg-primary text-white">
-        <div className="page-container mx-auto px-3 pt-12 text-sm">
+        <div className="page-container mx-auto px-3 py-24 text-sm">
           <hr className="h-0.5 border-gold mb-16"></hr>
           <div className=" grid grid-cols-3 gap-4">
             <div>
@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
           </div>
           <hr className="h-0.5 border-gold mt-16"></hr>
-          <div className="flex justify-between py-6 text-base text-gold">
+          <div className="flex justify-between pt-6 text-base text-gold">
             <p>Copyright © 2025</p>
             <div className="flex gap-5">
               <p>Privacy Policy</p>

@@ -112,35 +112,36 @@ export default function CompanySlider() {
   };
 
   return (
-    <div className="">
+    <div className="bg-secondary text-white">
       <div className="page-container ">
-        <div className="py-12">
+        <div className="py-24">
           <div className="flex justify-between items-center pb-6">
             <div className="flex items-center w-40">
               <p>Our companies</p>
-              <hr className="w-16 h-0.5 bg-dark flex-1 ms-3"></hr>
+              <hr className=" h-0.5 bg-dark flex-1 ms-3"></hr>
             </div>
             <div className="flex gap-5  ">
-              <button onClick={scrollLeftClick} className="border-2 p-0.5 border-black rounded-full">
+              <button onClick={scrollLeftClick} className="border-2 p-0.5 border-white rounded-full">
                 <IconArrowLeft size={18} />
               </button>
 
-              <button onClick={scrollRightClick} className="border-2 p-0.5 border-black rounded-full">
+              <button onClick={scrollRightClick} className="border-2 p-0.5 border-white rounded-full">
                 <IconArrowRight size={18} />
               </button>
             </div>
           </div>
           <div className="relative w-full">
             {/* Scrollable Container */}
-            <div ref={carouselRef} className="flex overflow-x-scroll overflow-y-hidden divide-x-4 snap-x snap-mandatory scroll-smooth gap-4 no-scrollbar cursor-grab">
+            <div ref={carouselRef} className="flex overflow-x-scroll overflow-y-hidden divide-x-2 snap-x snap-mandatory scroll-smooth gap-4 no-scrollbar cursor-grab">
               {companies.map((company, index) => (
-                <div key={index} className="flex-shrink-0 w-full border-silver pl-4 lg:w-[350px] snap-center  flex items-center justify-center text-xl font-bold ">
+                <div key={index} className="flex-shrink-0 w-full relative border-silver pl-4 lg:w-[350px] snap-center  flex items-center justify-center text-xl font-bold ">
                   <img className="aspect-video object-contain max-h-[2000px] bg-white" src={company.image} alt={company.name} />
+                  {/* <div className="absolute bottom-0 text-sm font-normal">{company.category}</div> */}
                 </div>
               ))}
             </div>
-            <div class="bg-gradient-to-r from-white absolute h-full top-0 left-0 bottom-0 w-20"></div>
-            <div class="bg-gradient-to-l from-white absolute h-full top-0 right-0 bottom-0 w-20"></div>
+            <div class="bg-gradient-to-r from-secondary absolute -mx-1 h-full top-0 left-0 bottom-0 w-20"></div>
+            <div class="bg-gradient-to-l from-secondary absolute -mx-1 h-full top-0 right-0 bottom-0 w-20"></div>
           </div>
         </div>
         {/* Navigation Buttons

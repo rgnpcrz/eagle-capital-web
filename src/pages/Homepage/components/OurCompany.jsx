@@ -7,9 +7,9 @@ export default function OurCompany() {
       <div className="">
         <div className="page-container mx-auto px-3 py-12 text-sm">
           <div className="flex justify-between items-center">
-            <div className="flex items-center w-40">
+            <div className="flex items-center w-64">
               <p>Our Company</p>
-              <hr className="w-16 h-0.5 bg-primary flex-1 ms-3"></hr>
+              <hr className="h-0.5 bg-primary flex-1 ms-3"></hr>
             </div>
             <button className="px-3 py-1.5 border-2 rounded-full border-primary flex">
               View more <IconArrowRight size={18} />

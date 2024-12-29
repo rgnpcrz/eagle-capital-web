@@ -5,11 +5,11 @@ export default function LatestFromUs() {
   return (
     <>
       <div className=" bg-primary text-white">
-        <div className="page-container mx-auto px-3 py-12 text-sm">
+        <div className="page-container mx-auto px-3 py-24 text-sm">
           <div className="flex justify-between items-center pb-12">
             <div className="flex items-center w-40">
-              <p>Our mission</p>
-              <hr className="w-16 h-0.5 bg-white flex-1 ms-3"></hr>
+              <p className="text-base">Our mission</p>
+              <hr className=" h-0.5 bg-white flex-1 ms-3"></hr>
             </div>
             <div className="flex gap-5">
               <button className="border-2 p-0.5 border-white rounded-full">
