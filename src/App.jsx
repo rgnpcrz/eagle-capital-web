@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage/Homepage.jsx";
 import Footer from "./components/Footer.jsx";
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/finance" element={<Finance />} />
           <Route path="/technology" element={<Technology />} />
           <Route path="/meet-the-team" element={<MeetTheTeam />} />
-          {/* <Route path="/*" element={} /> */}
+          <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
 
         <Footer />
