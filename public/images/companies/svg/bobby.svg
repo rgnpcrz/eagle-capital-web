@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284.67 90.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+        font-family: MuseoModernoRoman-Bold, MuseoModerno;
+        font-size: 63px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ccc;
+        stroke-miterlimit: 10;
+        stroke-width: 4.43px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-2" d="M3.93,32.19S-8.55,2.21,33.91,2.21s29.04,29.98,29.04,29.98"/>
+    <path class="cls-2" d="M63.41,58.55s11.97,30.19-30.49,29.46c-42.46-.72-28.52-30.47-28.52-30.47"/>
+    <path class="cls-2" d="M41.56,24.85c0,4.22-3.42,7.65-7.65,7.65s-7.65-3.42-7.65-7.65,3.42-7.65,7.65-7.65,7.65,3.42,7.65,7.65Z"/>
+    <path class="cls-2" d="M28.79,55.03c-5.91,3.08-6.33,17.58,0,21.05,5.66,3.11,16.63-2.68,17.06-9.56.46-7.4-11.38-14.46-17.06-11.49"/>
+    <path class="cls-2" d="M27.86,55.88s-13.3,5.54-13.3-13.3,13.3-12.88,13.3-12.88"/>
+    <path class="cls-2" d="M39.55,29.49s13.39-5.31,13.07,13.53c-.32,18.83-14.4,13.06-14.4,13.06"/>
+    <text class="cls-1" transform="translate(80.93 68.79)"><tspan x="0" y="0">Bobby</tspan></text>
+  </g>
+</svg>
