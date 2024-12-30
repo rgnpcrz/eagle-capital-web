@@ -22,7 +22,7 @@ export default function TeamCarousel() {
       <div className="page-container ">
         <div className="py-24">
           <div className="flex justify-between items-center pb-6">
-            <div className="w-64 text-3xl">
+            <div className="w-40 text-3xl">
               <p>Our Team</p>
             </div>
             <div className="flex gap-5  ">
@@ -36,13 +36,13 @@ export default function TeamCarousel() {
             </div>
           </div>
 
-          <div className="relative w-full py-12 ">
+          <div className="relative w-full ">
             {/* Scrollable Container */}
-            <div ref={carouselRef} className="flex overflow-x-scroll   overflow-y-hidden  snap-x snap-mandatory scroll-smooth  no-scrollbar cursor-grab">
+            <div ref={carouselRef} className="flex overflow-x-scroll   overflow-y-hidden  snap-x snap-mandatory scroll-smooth gap-24 no-scrollbar cursor-grab">
               {teamMembers.map((member, index) => (
                 <>
-                  <div className="flex-shrink-0 w-3/5 relative px-10 snap-center  flex  ">
-                    <div className="flex flex-col   px-10  gap-8">
+                  <div className="flex-shrink-0 w-full   lg:w-3/5 relative  snap-center  flex  ">
+                    <div className="flex flex-col   py-12 gap-8">
                       <div className="w-[350px] h-[350px] rounded-xl overflow-hidden bg-slate-50">
                         <img className="h-full w-full object-cover object-bottom" src={member.image} alt={member.name} />
                       </div>
@@ -61,8 +61,8 @@ export default function TeamCarousel() {
                 </>
               ))}
             </div>
-            <div class="bg-gradient-to-r from-white absolute  h-full top-0 -left-1 bottom-0 w-10"></div>
-            <div class="bg-gradient-to-l from-white absolute  h-full top-0 -right-1 bottom-0 w-10"></div>
+            {/* <div class="bg-gradient-to-r from-white absolute  h-full top-0 -left-4 bottom-0 w-10"></div>
+            <div class="bg-gradient-to-l from-white absolute  h-full top-0 -right-4 bottom-0 w-10"></div> */}
           </div>
         </div>
       </div>
