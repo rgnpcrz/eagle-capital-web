@@ -41,7 +41,7 @@ export default function TeamCarousel() {
             <div ref={carouselRef} className="flex overflow-x-scroll   overflow-y-hidden  snap-x snap-mandatory scroll-smooth gap-24 no-scrollbar ">
               {teamMembers.map((member, index) => (
                 <>
-                  <div className="flex-shrink-0 dbg-red w-full lg:w-3/5 relative snap-center flex">
+                  <div className="flex-shrink-0 w-full lg:w-3/5 relative snap-center flex">
                     <div className="flex flex-col  gap-8">
                       <div className="max-w-[350px] h-[350px] rounded-xl overflow-hidden bg-slate-50">
                         <img className="h-full w-full object-cover object-bottom" src={member.image} alt={member.name} />
