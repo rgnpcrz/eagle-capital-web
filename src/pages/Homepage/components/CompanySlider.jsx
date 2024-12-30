@@ -116,8 +116,8 @@ export default function CompanySlider() {
       <div className="page-container ">
         <div className="py-24">
           <div className="flex justify-between items-center pb-6">
-            <div className="flex items-center w-40">
-              <p>Our companies</p>
+            <div className="flex items-center w-64">
+              <p className="text-xl">Our companies</p>
               <hr className=" h-0.5 bg-dark flex-1 ms-3"></hr>
             </div>
             <div className="flex gap-5  ">
@@ -132,16 +132,16 @@ export default function CompanySlider() {
           </div>
           <div className="relative w-full">
             {/* Scrollable Container */}
-            <div ref={carouselRef} className="flex overflow-x-scroll overflow-y-hidden divide-x-2 snap-x snap-mandatory scroll-smooth gap-4 no-scrollbar cursor-grab">
+            <div ref={carouselRef} className="flex overflow-x-scroll overflow-y-hidden divide-x-2 snap-x snap-mandatory scroll-smooth  no-scrollbar ">
               {companies.map((company, index) => (
-                <div key={index} className="flex-shrink-0 w-full relative border-silver pl-4 lg:w-[350px] snap-center  flex items-center justify-center text-xl font-bold ">
+                <div key={index} className="flex-shrink-0 w-full relative border-silver  lg:w-[350px] snap-center flex items-center justify-center  ">
                   <img className="aspect-video object-contain max-h-[2000px] bg-white" src={company.image} alt={company.name} />
                   {/* <div className="absolute bottom-0 text-sm font-normal">{company.category}</div> */}
                 </div>
               ))}
             </div>
-            <div class="bg-gradient-to-r from-secondary absolute -mx-1 h-full top-0 left-0 bottom-0 w-20"></div>
-            <div class="bg-gradient-to-l from-secondary absolute -mx-1 h-full top-0 right-0 bottom-0 w-20"></div>
+            <div class="bg-gradient-to-r from-secondary absolute  h-full top-0 -left-1 bottom-0 w-10"></div>
+            <div class="bg-gradient-to-l from-secondary absolute  h-full top-0 -right-1 bottom-0 w-10"></div>
           </div>
         </div>
         {/* Navigation Buttons
