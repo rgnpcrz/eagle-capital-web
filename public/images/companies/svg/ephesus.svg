@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.85 150.59">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: Hubballi-Regular, Hubballi;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #ccc;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 9.98px;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 37.1px;
+      }
+
+      .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-6 {
+        font-size: 14.84px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #ccc;
+        stroke-miterlimit: 10;
+        stroke-width: 7.74px;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(0 144.65) scale(1.03 1)"><tspan x="0" y="0">t</tspan><tspan class="cls-8" x="3.53" y="0">r</tspan><tspan x="6.78" y="0">a</tspan><tspan class="cls-10" x="11.27" y="0">v</tspan><tspan x="15.67" y="0">el </tspan></text>
+    <text class="cls-3" transform="translate(29.8 144.55) scale(1.03 1)"><tspan x="0" y="0">|</tspan></text>
+    <g>
+      <polyline class="cls-7" points="101.39 20.08 33 20.08 33 34.67 115.98 34.67"/>
+      <polyline class="cls-7" points="115.98 52.55 30.68 52.55 28.42 52.55"/>
+      <polyline class="cls-7" points="101.39 68.75 33 68.75 33 83.34 115.98 83.34"/>
+      <polygon class="cls-7" points="115.98 83.34 115.98 100.65 11.28 100.65 11.28 44.07 11.28 3.87 115.98 3.87 115.98 34.67 115.98 52.55 115.98 83.34"/>
+    </g>
+    <text class="cls-1" transform="translate(2.23 129.07)"><tspan class="cls-4" x="0" y="0">eph</tspan><tspan class="cls-5" x="54.16" y="0">e</tspan><tspan class="cls-4" x="70.85" y="0">sus</tspan><tspan class="cls-6" x="122.68" y="0"> </tspan></text>
+    <text class="cls-2" transform="translate(103.39 144.59) scale(1.03 1)"><tspan x="0" y="0">holiday</tspan></text>
+    <text class="cls-2" transform="translate(37.78 144.55) scale(1.03 1)"><tspan x="0" y="0">m</tspan><tspan class="cls-11" x="7.5" y="0">e</tspan><tspan x="12.14" y="0">d-</tspan><tspan class="cls-9" x="21.37" y="0">t</tspan><tspan x="24.8" y="0">ourism</tspan></text>
+    <text class="cls-3" transform="translate(96.85 144.55) scale(1.03 1)"><tspan x="0" y="0">|</tspan></text>
+  </g>
+</svg>
