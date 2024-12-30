@@ -24,6 +24,7 @@ export default function App() {
           <Route path="/finance" element={<Finance />} />
           <Route path="/technology" element={<Technology />} />
           <Route path="/meet-the-team" element={<MeetTheTeam />} />
+          {/* <Route path="/*" element={} /> */}
         </Routes>
 
         <Footer />

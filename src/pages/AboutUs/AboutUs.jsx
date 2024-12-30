@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <>
       <div className="">
-        <div className="bg-primary  text-white  ">
+        <div className=" bg-slate-100 ">
           <div className="page-container mx-auto flex flex-col py-12">
             <div className="flex-1 flex-col min-h-screen -mt-16 pt-16 justify-center flex md:pr-24">
               <div className="">
@@ -93,7 +93,7 @@ export default function AboutUs() {
           </div>
         </div>
         {/* OUR CURREN INVESTMENTS SECTION */}
-        <div className=" ">
+        <div className=" bg-slate-100">
           <div className="page-container mx-auto px-3 py-24 text-sm">
             <div className="grid relative  pl-20 justify-between gap-8">
               <h1 className="text-3xl absolute top-0 left-0 -translate-y-9  rotate-90 origin-bottom-left">Investment Strategy</h1>
