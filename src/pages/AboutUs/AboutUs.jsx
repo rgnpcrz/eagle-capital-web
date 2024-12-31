@@ -1,4 +1,5 @@
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import OurServices from "../Homepage/components/CompanySlider copy";
 
 export default function AboutUs() {
   return (
@@ -92,6 +93,7 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
+        <OurServices />
         {/* OUR CURREN INVESTMENTS SECTION */}
         <div className=" bg-slate-100">
           <div className="page-container mx-auto px-3 py-24 text-sm">
