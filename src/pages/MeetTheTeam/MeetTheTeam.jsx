@@ -29,7 +29,7 @@ export default function MeetTheTeam() {
           {teamMembers.map((member, index) => (
             <>
               <div className="flex flex-col lg:flex-row  py-12 gap-8">
-                <div className="w-[350px] h-[350px] rounded-xl overflow-hidden bg-slate-50">
+                <div className="max-w-[350px] h-[350px] rounded-xl overflow-hidden bg-slate-50">
                   <img className="h-full w-full object-cover object-bottom" src={member.image} alt={member.name} />
                 </div>
                 <div className="flex-1 flex flex-col gap-8 ">
