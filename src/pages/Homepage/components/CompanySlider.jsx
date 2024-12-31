@@ -118,7 +118,7 @@ export default function CompanySlider() {
           <div className="flex justify-between items-center pb-12">
             <div className="flex items-center w-64">
               <p className="text-xl">Our companies</p>
-              <hr className=" h-0.5 bg-dark flex-1 ms-3"></hr>
+              {/* <hr className=" h-0.5 bg-dark flex-1 ms-3"></hr> */}
             </div>
             <div className="flex gap-5  ">
               <button onClick={scrollLeftClick} className="border-2 p-0.5 border-white rounded-full">
@@ -135,7 +135,7 @@ export default function CompanySlider() {
             <div ref={carouselRef} className="flex overflow-x-scroll overflow-y-hidden divide-x-2 snap-x snap-mandatory scroll-smooth  no-scrollbar ">
               {companies.map((company, index) => (
                 <div key={index} className="flex-shrink-0 w-full relative border-silver  lg:w-[350px] snap-center flex items-center justify-center  ">
-                  <img className="aspect-square w-[150px] object-contain max-h-[2000px] " src={company.image} alt={company.name} />
+                  <img className="aspect-video my-6 w-[200px] object-contain max-h-[2000px] " src={company.image} alt={company.name} />
                   {/* <div className="absolute bottom-0 text-sm font-normal">{company.category}</div> */}
                 </div>
               ))}

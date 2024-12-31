@@ -38,8 +38,8 @@ export default function MeetTheTeam() {
                     <p className="text-xl">{member.position}</p>
                   </div>
 
-                  <div className="space-y-4">
-                    <p className="text-base">{member.bio}</p>
+                  <div className="space-y-4 text-base">
+                    <p className="whitespace-pre-line">{member.bio}</p>
                   </div>
                 </div>
               </div>

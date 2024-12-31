@@ -1,3 +1,5 @@
+import LinkButton from "../../../components/LinkButton";
+import LinkButtonOutline from "../../../components/LinkButtonOutline";
 import latest from "./../../../assets/images/latest.png";
 import { IconArrowRight, IconArrowLeft } from "@tabler/icons-react";
 
@@ -31,14 +33,13 @@ export default function LatestFromUs() {
                   unique opportunities in the regions we serve by leveraging our extensive network and deep market understanding.
                 </p>
               </div>
-              <div className="flex items-center">
-                <p className="pr-3 text-base ">Learn more</p>
-                <div>
-                  <button className="border-2 p-0.5 border-white rounded-full">
-                    <IconArrowRight size={18} />
-                  </button>
-                </div>
+
+              <div>
+                <LinkButtonOutline text="Learn More" link="/about-us" />
               </div>
+              {/* <button className="border-2 p-0.5 border-white rounded-full">
+                    <IconArrowRight size={18} />
+                  </button> */}
             </div>
             <div className="flex items-center ">
               <img className="object-cover w-full h-full" src={latest} />
