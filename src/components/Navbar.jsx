@@ -105,7 +105,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="h-16 bg-primary"></div>
+      <div className="h-16"></div>
     </>
   );
 }
