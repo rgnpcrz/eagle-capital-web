@@ -1,113 +1,21 @@
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-import { useRef, useState } from "react";
-
-const companies = [
-  {
-    name: "bobby",
-    category: "Technology",
-    image: "/images/companies/svg/bobby.svg",
-  },
-  {
-    name: "beverly-park",
-    category: "Real Estate",
-    image: "/images/companies/svg/beverly.svg",
-  },
-  {
-    name: "countour-global",
-    category: "Technology",
-    image: "/images/companies/svg/contour.svg",
-  },
-  {
-    name: "credins-bank",
-    category: "Finance",
-    image: "/images/companies/svg/credins.svg",
-  },
-  {
-    name: "ephesus",
-    category: "Real Estate",
-    image: "/images/companies/svg/ephesus.svg",
-  },
-  {
-    name: "evergreen-valley",
-    category: "Real Estate",
-    image: "/images/companies/svg/evergreen.svg",
-  },
-  {
-    name: "green-medical",
-    category: "Technology",
-    image: "/images/companies/svg/green-medical.svg",
-  },
-  // {
-  //   name: "sowi-kosova",
-  //   category: "Technology",
-  //   image: "/images/companies/svg/sowi-kosova.svg",
-  // },
-  {
-    name: "noa",
-    category: "Finance",
-    image: "/images/companies/svg/noa.svg",
-  },
-  {
-    name: "prishtina-city-center",
-    category: "Real Estate",
-    image: "/images/companies/svg/pcc.svg",
-  },
-  {
-    name: "rbko-head-office",
-    category: "Finance",
-    image: "/images/companies/svg/headoffice.svg",
-  },
-  {
-    name: "sowi-renewable",
-    category: "Technology",
-    image: "/images/companies/svg/sowi.svg",
-  },
-];
-
+import { useRef } from "react";
+import companies from "../../../data/companies";
 export default function CompanySlider() {
   const carouselRef = useRef(null);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-
-  // const handleMouseDown = (e) => {
-  //   if (carouselRef.current) {
-  //     setIsDragging(true);
-  //     setStartX(e.pageX);
-  //     carouselRef.current.style.cursor = "grabbing"; // Change cursor on drag
-  //   }
-  // };
-
-  // const handleMouseMove = (e) => {
-  //   if (!isDragging || !carouselRef.current) return;
-  //   const x = e.pageX;
-  //   const walk = (x - startX) * 1.5; // Adjust multiplier for sensitivity
-  //   carouselRef.current.scrollLeft -= walk;
-  //   setStartX(x); // Update start position to the current position
-  // };
-
-  // const handleMouseUp = () => {
-  //   setIsDragging(false);
-  //   if (carouselRef.current) {
-  //     carouselRef.current.style.cursor = "grab"; // Reset cursor
-  //   }
-  // };
-
-  // const handleMouseLeave = () => {
-  //   setIsDragging(false);
-  //   if (carouselRef.current) {
-  //     carouselRef.current.style.cursor = "grab"; // Reset cursor
-  //   }
-  // };
+  const scrollItemRef = useRef(null);
 
   const scrollLeftClick = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({ left: -500, behavior: "smooth" });
+    if (carouselRef.current && scrollItemRef.current) {
+      const itemWidth = scrollItemRef.current.getBoundingClientRect().width;
+      carouselRef.current.scrollBy({ left: -itemWidth, behavior: "smooth" });
     }
   };
 
   const scrollRightClick = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({ left: 500, behavior: "smooth" });
+    if (carouselRef.current && scrollItemRef.current) {
+      const itemWidth = scrollItemRef.current.getBoundingClientRect().width;
+      carouselRef.current.scrollBy({ left: itemWidth, behavior: "smooth" });
     }
   };
 
@@ -134,7 +42,7 @@ export default function CompanySlider() {
             {/* Scrollable Container */}
             <div ref={carouselRef} className="flex overflow-x-scroll overflow-y-hidden divide-x-2 snap-x snap-mandatory scroll-smooth  no-scrollbar ">
               {companies.map((company, index) => (
-                <div key={index} className="flex-shrink-0 w-full relative border-silver  lg:w-[350px] snap-center flex items-center justify-center  ">
+                <div key={index} ref={index === 0 ? scrollItemRef : null} className="flex-shrink-0 w-full relative border-silver  lg:w-[350px] snap-center flex items-center justify-center  ">
                   <img className="aspect-video my-6 w-[200px] object-contain max-h-[2000px] " src={company.image} alt={company.name} />
                   {/* <div className="absolute bottom-0 text-sm font-normal">{company.category}</div> */}
                 </div>
