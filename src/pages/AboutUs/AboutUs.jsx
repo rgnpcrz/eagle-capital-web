@@ -1,5 +1,4 @@
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-import OurServices from "../Homepage/components/CompanySlider copy";
+import OurServices from "../Homepage/components/OurServices.jsx";
 
 export default function AboutUs() {
   return (

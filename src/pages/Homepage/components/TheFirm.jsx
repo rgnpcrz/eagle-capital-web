@@ -1,3 +1,5 @@
+import LinkButton from "../../../components/LinkButton";
+
 export default function TheFirm() {
   return (
     <>
@@ -6,7 +8,7 @@ export default function TheFirm() {
           <div className="flex justify-between items-center">
             <div className="flex items-center w-64">
               <p className="text-xl">The Firm</p>
-              <hr className="w-16 h-0.5 bg-primary flex-1 ms-3"></hr>
+              {/* <hr className="w-16 h-0.5 bg-primary flex-1 ms-3"></hr> */}
             </div>
             {/* <button className="px-3 py-1.5 border-2 rounded-full border-primary">View more</button> */}
           </div>
@@ -16,7 +18,7 @@ export default function TheFirm() {
               Eagle Capital is a distinguished M&A and investment firm with a strategic focus on secure investments within South Eastern Europe and the United States. Our primary investment targets
               are licensed financial institutions, prime real estate in high-end coastal areas of the Mediterranean and innovative projects in the renewable energy sector.
             </h1>
-            <button className="px-3 py-1.5 border-2 rounded-full border-primary">View more</button>
+            <LinkButton text="View more" link="/about-us" />
           </div>
         </div>
       </div>

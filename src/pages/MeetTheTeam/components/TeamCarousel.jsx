@@ -43,8 +43,10 @@ export default function TeamCarousel() {
                 <>
                   <div className="flex-shrink-0 w-full lg:w-3/5 relative snap-center flex">
                     <div className="flex flex-col  gap-8">
-                      <div className="max-w-[350px] h-[350px] rounded-xl overflow-hidden bg-slate-50">
-                        <img className="h-full w-full object-cover object-bottom" src={member.image} alt={member.name} />
+                      <div>
+                        <div className="max-w-[350px] mx-auto flex h-[350px] rounded-xl overflow-hidden bg-slate-50">
+                          <img className="h-full w-full  object-cover object-bottom" src={member.image} alt={member.name} />
+                        </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-8 ">
                         <div>
@@ -53,7 +55,7 @@ export default function TeamCarousel() {
                         </div>
 
                         <div className="space-y-4">
-                          <p className="text-base">{member.bio}</p>
+                          <p className="text-base whitespace-pre-line">{member.bio}</p>
                         </div>
                       </div>
                     </div>

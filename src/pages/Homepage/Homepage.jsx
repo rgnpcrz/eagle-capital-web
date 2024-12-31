@@ -1,10 +1,9 @@
 import Banner from "./components/Banner.jsx";
-import OurServices from "./components/CompanySlider copy.jsx";
 import CompanySlider from "./components/CompanySlider.jsx";
+import OurServices from "./components/OurServices.jsx";
 import GetInTouch from "./components/GetInTouch.jsx";
 import LatestFromUs from "./components/LatestFromUs.jsx";
 import News from "./components/News.jsx";
-import OurCompany from "./components/OurCompany.jsx";
 import TheFirm from "./components/TheFirm.jsx";
 
 export default function Homepage() {
