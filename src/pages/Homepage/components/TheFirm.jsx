@@ -3,7 +3,7 @@ import LinkButton from "../../../components/LinkButton";
 export default function TheFirm() {
   return (
     <>
-      <div className="">
+      <div className="bg-slate-100">
         <div className="page-container mx-auto px-3 py-12 text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center w-64">
