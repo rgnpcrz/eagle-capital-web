@@ -20,7 +20,7 @@ export default function MeetTheTeam() {
         </div>
       </div>
       <TeamCarousel />
-      <div className="page-container">
+      {/* <div className="page-container">
         <div>
           {teamMembers.map((member, index) => (
             <>
@@ -42,7 +42,7 @@ export default function MeetTheTeam() {
             </>
           ))}
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

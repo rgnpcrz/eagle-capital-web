@@ -13,9 +13,9 @@ export default function OurServices() {
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
               {services.map((service, index) => (
                 <div key={index} className="p-8 bg-slate-100 rounded-lg gap-5 flex flex-col group hover:bg-primary hover:text-white duration-150">
-                  <div>
+                  {/* <div>
                     <div className="w-16 h-16 rounded-full bg-silver flex items-center justify-center text-gold">ICON</div>
-                  </div>
+                  </div> */}
                   <div className="space-y-3">
                     <p className="font-semibold text-xl group-hover:text-white  duration-150">{service.name}</p>
                     <p className="text-base group-hover:text-white  duration-150">{service.description}</p>

@@ -10,14 +10,14 @@ export default function Footer() {
           <hr className="h-0.5 border-gold mb-16"></hr>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
             <div className="flex items-center ">
-              <div className="h-16">
+              <div>
                 <img src={logoWhite} className="w-60" />
               </div>
             
             </div>
-            <div className="text-base space-y-6">
-              <div className="h-16">
-                <h1 className="text-xl pb-5">OUR ADDRESS</h1>
+            <div className="text-base space-y-4">
+              <div>
+                <h1 className="text-xl pb-5 text-gold">OUR ADDRESS</h1>
               </div>
               <p className="font-light">
                 <a href="https://maps.app.goo.gl/jVA9pFJ4uFFuEQXF9" target="_blank">
@@ -35,9 +35,9 @@ export default function Footer() {
                 </a>
               </p>
             </div>
-            <div className="text-base space-y-6">
-              <div className="h-16">
-                <h1 className="text-xl pb-5">QUICK LINKS</h1>
+            <div className="text-base space-y-4">
+              <div>
+                <h1 className="text-xl pb-5 text-gold">QUICK LINKS</h1>
               </div>
               <p>
                 <Link
