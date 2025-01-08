@@ -18,42 +18,42 @@ const services = [
     description:
       "End-to-end project planning and execution tailored to meet specific business objectives.",
     image: "",
-    slug: "1",
+    slug: "project-development",
   },
   {
     name: "Project Financing",
     description:
       "Custom financial solutions to ensure your projects are funded and delivered on time.",
     image: "",
-    slug: "2",
+    slug: "project-financing",
   },
   {
     name: "Real Estate Development",
     description:
       "Expertise in developing residential, commercial, and mixed-use properties with precision.",
     image: "",
-    slug: "3",
+    slug: "real-estate-development",
   },
   {
     name: "Commercial Law Services",
     description:
       "Comprehensive legal solutions to safeguard and advance your commercial interests.",
     image: "",
-    slug: "4",
+    slug: "commercial-law-services",
   },
   {
     name: "Advanced Business Plans",
     description:
       "Detailed business plans designed to articulate vision and secure investor confidence.",
     image: "",
-    slug: "5",
+    slug: "advanced-business-plans",
   },
   {
     name: "Financial Modelings",
     description:
       "Sophisticated financial modeling to forecast, analyze, and optimize business performance.",
     image: "",
-    slug: "6",
+    slug: "financial-modelings",
   },
 ];
 
