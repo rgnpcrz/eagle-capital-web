@@ -52,7 +52,6 @@ export default function ContactUs() {
       message,
     } = formData;
 
-    // Find the service name using the slug
     const selectedService =
       services.find((service) => service.slug === selectedServiceSlug)?.name ||
       "General";
