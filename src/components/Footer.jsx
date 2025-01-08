@@ -7,31 +7,41 @@ export default function Footer() {
     <>
       <div className="bg-primary text-white">
         <div className="page-container mx-auto px-3 py-24 text-sm">
-          <hr className="h-0.5 border-gold mb-16"></hr>
+          <hr className="h-0.5 border-gold mb-t16"></hr>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
             <div className="flex items-center ">
               <div>
                 <img src={logoWhite} className="w-60" />
               </div>
-            
             </div>
             <div className="text-base space-y-4">
               <div>
                 <h1 className="text-xl pb-5 text-gold">OUR ADDRESS</h1>
               </div>
               <p className="font-light">
-                <a href="https://maps.app.goo.gl/jVA9pFJ4uFFuEQXF9" target="_blank">
-                  211 Madison Ave, New York, New York, 10016, <strong>US</strong>
+                <a
+                  href="https://maps.app.goo.gl/jVA9pFJ4uFFuEQXF9"
+                  target="_blank"
+                >
+                  211 Madison Ave, New York, New York, 10016,{" "}
+                  <strong>US</strong>
                 </a>
               </p>
               <p className="font-light">
-                <a href="https://maps.app.goo.gl/RDEbVuhyJe3UqDs99" target="_blank">
+                <a
+                  href="https://maps.app.goo.gl/RDEbVuhyJe3UqDs99"
+                  target="_blank"
+                >
                   Mujo Ulqinaku 8, Prishtinë, Kosovo 10000, <strong>XK</strong>
                 </a>
               </p>
               <p className="font-light">
-                <a href="https://maps.app.goo.gl/WnNqN2QRiEX9igJN6" target="_blank">
-                  Ismail Qemajli K2, 7, Tirana, Albania, 10000, <strong>AL</strong>
+                <a
+                  href="https://maps.app.goo.gl/WnNqN2QRiEX9igJN6"
+                  target="_blank"
+                >
+                  Ismail Qemajli K2, 7, Tirana, Albania, 10000,{" "}
+                  <strong>AL</strong>
                 </a>
               </p>
             </div>
@@ -65,7 +75,9 @@ export default function Footer() {
                   onClick={() => {
                     window.scrollTo(0, 0);
                   }}
-                >Meet the Team</Link>
+                >
+                  Meet the Team
+                </Link>
               </p>
             </div>
           </div>
