@@ -65,7 +65,6 @@ export default function ContactUs() {
     // Construct the mailto URL
     const mailtoLink = `mailto:patrik.krasniqi@eaglecapital.us?subject=${subject}&body=${body}`;
 
-    // Redirect to the mailto link
     window.location.href = mailtoLink;
   };
 
