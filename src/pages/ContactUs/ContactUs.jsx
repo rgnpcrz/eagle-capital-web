@@ -44,13 +44,23 @@ export default function ContactUs() {
 
   const handleSubmit = (_e) => {
     _e.preventDefault();
-    const { name, email, service: selectedServiceSlug, phone, message } = formData;
+    const {
+      name,
+      email,
+      service: selectedServiceSlug,
+      phone,
+      message,
+    } = formData;
 
     // Find the service name using the slug
-    const selectedService = services.find((service) => service.slug === selectedServiceSlug)?.name || "General";
+    const selectedService =
+      services.find((service) => service.slug === selectedServiceSlug)?.name ||
+      "General";
 
     const subject = encodeURIComponent(`Service Inquiry: ${selectedService}`);
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
+    );
 
     // Construct the mailto URL
     const mailtoLink = `mailto:patrik.krasniqi@eaglecapital.us?subject=${subject}&body=${body}`;
@@ -64,25 +74,52 @@ export default function ContactUs() {
       <div className="page-container mx-auto flex flex-col px-3 py-12 w-full max-w-6xl">
         <div className="flex flex-wrap md:flex-nowrap">
           <div className="w-full md:w-1/2 bg-white md:p-12 space-y-4">
-            <div className={`transform transition-all duration-700 ${isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
-              <h1 className="text-6xl sm:pt-0 pt-8 text-slate-700">Let's meet</h1>
+            <div
+              className={`transform transition-all duration-700 ${
+                isVisible
+                  ? "translate-x-0 opacity-100"
+                  : "-translate-x-full opacity-0"
+              }`}
+            >
+              <h1 className="text-6xl sm:pt-0 pt-8 text-slate-700">
+                Let's meet
+              </h1>
             </div>
-            <p className="text-lg text-gold font-bolder py-16">Want to get in touch?</p>
+            <p className="text-lg text-gold font-bolder py-16">
+              Want to get in touch?
+            </p>
             <div className="pt-6">
               <p className="font-medium text-slate-700">Email</p>
-              <p className="text-gold">patrik.krasniqi@eaglecapital.us</p>
+              <p className="text-gold">
+                <a href="mailto:patrik.krasniqi@eaglecapital.us">
+                  patrik.krasniqi@eaglecapital.us
+                </a>
+              </p>
             </div>
             <div className="py-2">
               <p className="font-medium text-slate-700">Phone</p>
-              <p className="text-gold">044111222</p>
+              <p className="text-gold">
+                <a href="tel:+383 44 000 000"> +383 44 000 000</a>
+              </p>
             </div>
             <hr className="block md:hidden border-slate-300 py-10 " />
           </div>
 
           <div className="w-full md:w-1/2 bg-white md:p-12">
             <form className="space-y-6">
-              <InputField label="Name" id="name" name="name" handleChange={handleChange} />
-              <InputField label="Email" id="email" type="email" name="email" handleChange={handleChange} />
+              <InputField
+                label="Name"
+                id="name"
+                name="name"
+                handleChange={handleChange}
+              />
+              <InputField
+                label="Email"
+                id="email"
+                type="email"
+                name="email"
+                handleChange={handleChange}
+              />
               {/* <InputField label="Service" id="service" /> */}
               <div>
                 <label className="block">Service</label>
@@ -95,14 +132,29 @@ export default function ContactUs() {
                 >
                   <option value="">Choose service</option>
                   {services?.map((service) => (
-                    <option key={`TargjzifHYOt0cvVL${service.slug}`} value={service.slug}>
+                    <option
+                      key={`TargjzifHYOt0cvVL${service.slug}`}
+                      value={service.slug}
+                    >
                       {service.name}
                     </option>
                   ))}
                 </select>
               </div>
-              <InputField label="Phone number" id="phone" name="phone" handleChange={handleChange} />
-              <InputField label="Message" id="message" name="message" isTextarea={true} rows="4" handleChange={handleChange} />
+              <InputField
+                label="Phone number"
+                id="phone"
+                name="phone"
+                handleChange={handleChange}
+              />
+              <InputField
+                label="Message"
+                id="message"
+                name="message"
+                isTextarea={true}
+                rows="4"
+                handleChange={handleChange}
+              />
               <div>
                 <button
                   type="submit"
