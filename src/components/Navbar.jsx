@@ -43,6 +43,7 @@ export default function Navbar() {
           <Link to="/technology">Technology</Link> */}
           <Link to="/about-us">About us</Link>
           <Link to="/meet-the-team">Meet the Team</Link>
+          <Link to="/contact-us">Contact</Link>
         </div>
       </div>
       <div className={`w-full fixed duration-200 overflow-hidden bg-white text-dark z-[9999999]  `}>
@@ -61,6 +62,7 @@ export default function Navbar() {
           <Link to="/technology">Technology</Link> */}
               <Link to="/about-us">About us</Link>
               <Link to="/meet-the-team">Meet the Team</Link>
+              <Link to="/contact-us">Contact</Link>
             </div>
             <div className="flex lg:hidden gap-10">
               <button type="button" className="" onClick={toggleMenu}>

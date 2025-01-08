@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage/Homepage.jsx";
 import Footer from "./components/Footer.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
+import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import NewsPage from "./pages/NewsPage/NewsPage.jsx";
 import RealEstate from "./pages/Categories/RealEstate/RealEstate.jsx";
 import Finance from "./pages/Categories/Finance/Finance.jsx";
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/finance" element={<Finance />} />
           <Route path="/technology" element={<Technology />} />
           <Route path="/meet-the-team" element={<MeetTheTeam />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
 
