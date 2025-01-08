@@ -40,11 +40,11 @@ export default function TeamCarousel() {
 
         <div className="relative w-full py-12">
           {/* Scrollable Container */}
-          <div ref={carouselRef} className="flex overflow-x-scroll   overflow-y-hidden  snap-x snap-mandatory scroll-smooth gap-24 no-scrollbar ">
+          <div ref={carouselRef} className="flex overflow-x-scroll   overflow-y-hidden  snap-x snap-mandatory scroll-smooth  no-scrollbar ">
             {teamMembers.map((member, index) => (
               <>
-                <div key={index} ref={index === 0 ? scrollItemRef : null} className="flex-shrink-0 w-full lg:w-3/5 relative snap-center flex">
-                  <div className="flex flex-col  gap-8">
+                <div key={index} ref={index === 0 ? scrollItemRef : null} className="flex-shrink-0 w-full  lg:w-1/2 relative snap-start flex">
+                  <div className="flex flex-col  gap-8 px-12">
                     <div>
                       <div className="max-w-[350px] mx-auto flex h-[350px] rounded-xl overflow-hidden bg-slate-50">
                         <img className="h-full w-full  object-cover object-bottom" src={member.image} alt={member.name} />
