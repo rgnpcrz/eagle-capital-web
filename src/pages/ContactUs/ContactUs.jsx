@@ -87,7 +87,7 @@ export default function ContactUs() {
             </p>
             <div className="pt-6">
               <p className="font-medium text-slate-700">Email</p>
-              <p className="text-gold">
+              <p className="text-gold pt-2">
                 <a href="mailto:patrik.krasniqi@eaglecapital.us">
                   patrik.krasniqi@eaglecapital.us
                 </a>
@@ -95,8 +95,11 @@ export default function ContactUs() {
             </div>
             <div className="py-2">
               <p className="font-medium text-slate-700">Phone</p>
+              <p className="text-gold py-2">
+                <a href="tel:+383 38 710 010"> +383 38 710 010</a>
+              </p>
               <p className="text-gold">
-                <a href="tel:+383 44 000 000"> +383 44 000 000</a>
+                <a href="tel:+1 914 256 8477"> +1 (914) 256 8477</a>
               </p>
             </div>
             <hr className="block md:hidden border-slate-300 py-10 " />
