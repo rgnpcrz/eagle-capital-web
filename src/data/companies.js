@@ -12,7 +12,7 @@ const companies = [
   {
     name: "countour-global",
     category: "Technology",
-    image: "/images/companies/svg/contour.svg",
+    image: "/images/companies/svg/new-kosova-power-plant.svg",
   },
   {
     name: "credins-bank",
@@ -33,6 +33,11 @@ const companies = [
     name: "green-medical",
     category: "Technology",
     image: "/images/companies/svg/green-medical.svg",
+  },
+  {
+    name: "sowi-renewable-solutions",
+    category: "Technology",
+    image: "/images/companies/svg/sowi-renewable-solutions.svg",
   },
   {
     name: "noa",

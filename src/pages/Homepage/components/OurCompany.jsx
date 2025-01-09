@@ -24,51 +24,87 @@ export default function OurCompany() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 border border-primary">
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/bobby.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/bobby.png"
+              />
               <p className="absolute top-4 left-4">Technology</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/beverly-park.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/beverly-park.png"
+              />
               <p className="absolute top-4 left-4">Real Estate</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/countour-global.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/countour-global.png"
+              />
               <p className="absolute top-4 left-4">Technology</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/credins-bank.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/credins-bank.png"
+              />
               <p className="absolute top-4 left-4">Finance</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/ephesus.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/ephesus.png"
+              />
               <p className="absolute top-4 left-4">Real Estate</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/evergreen-valley.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/evergreen-valley.png"
+              />
               <p className="absolute top-4 left-4">Real Estate</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/green-medical.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/green-medical.png"
+              />
               <p className="absolute top-4 left-4">Technology</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/sowi-kosova.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/sowi-kosova.png"
+              />
               <p className="absolute top-4 left-4">Technology</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/noa.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/noa.png"
+              />
               <p className="absolute top-4 left-4">Finance</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/prishtina-city-center.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/prishtina-city-center.png"
+              />
               <p className="absolute text-white top-4 left-4">Real Estate</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/rbko-head-office.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/rbko-head-office.png"
+              />
               <p className="absolute top-4 left-4">Finance</p>
             </div>
             <div className="border border-primary relative">
-              <img className="object-cover aspect-square" src="/images/companies/sowi-renewable.png" />
+              <img
+                className="object-cover aspect-square"
+                src="/images/companies/sowi-renewable.png"
+              />
               <p className="absolute top-4 left-4">Technology</p>
             </div>
           </div>
