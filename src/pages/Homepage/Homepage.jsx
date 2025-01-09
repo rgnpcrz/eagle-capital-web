@@ -13,8 +13,8 @@ export default function Homepage() {
       <TheFirm />
       {/* <News /> */}
       {/* <OurCompany /> */}
-      <OurServices />
       <CompanySlider />
+      <OurServices />
       <LatestFromUs />
       <GetInTouch />
     </>
