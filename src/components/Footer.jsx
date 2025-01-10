@@ -82,7 +82,6 @@ export default function Footer() {
               </p>
             </div>
           </div>
-
           <hr className="h-0.5 border-gold mt-16"></hr>
           <div className="flex flex-col gap-y-6 sm:flex-row justify-between pt-6 text-base text-gold">
             <p className="text-center sm:text-left">Copyright © 2025</p>
