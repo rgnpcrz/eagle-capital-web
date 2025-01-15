@@ -69,8 +69,7 @@ export default function AboutUs() {
               <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
                 <h1 className="text-2xl">Real Estate</h1>
                 <p className="text-gray-300">
-                  We currently hold controlling stake in two licensed financial institutions, including one Commercial Bank and one NonBank Financial Institution and one Mortgage Institution in the
-                  United States (establishment ongoing)
+                  Prime real estate in costal areas of the Ionian Sea in Albania; Two Real Estate Developments in Pristina, Kosovo and Premium Mansion in the Heart of Manhattan, New York.
                 </p>
               </div>
               <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
