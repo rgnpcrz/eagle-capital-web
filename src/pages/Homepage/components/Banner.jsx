@@ -7,12 +7,21 @@ export default function Banner() {
         <div className="page-container mx-auto flex flex-col px-3 -mt-16 pt-16  min-h-screen  py-12">
           <div className="flex-1 flex-col py-6 justify-center flex  md:pr-24">
             <div className="">
-              <div className="space-y-4 font-light text-5xl md:text-8xl">
+              <div
+                className="space-y-4 font-light text-5xl md:text-8xl"
+                data-aos="fade-right"
+              >
                 <h1 className="">Eagle Capital,</h1>
                 <h1 className="">Investing in the future</h1>
               </div>
-              <h1 className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto py-12">
-                Eagle Capital is a distinguished M&A and investment firm with a strategic focus on secure investments within South Eastern Europe and the United States.
+              <h1
+                className="text-2xl font-light leading-9 max-w-[800px] ps-12 ml-auto py-12"
+                data-aos="fade-right"
+                data-aos-delay="500"
+              >
+                Eagle Capital is a distinguished M&A and investment firm with a
+                strategic focus on secure investments within South Eastern
+                Europe and the United States.
               </h1>
             </div>
           </div>
