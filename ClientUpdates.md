@@ -27,3 +27,34 @@ Nese keni ndonje pytje ose nuk keni kuptu ndonje gje ju lutem me kontaktoni.
 
 Patrik Krasniqi
 Chief Marketing Officer (CMO)
+
+##############################################################
+
+Faza e dyte
+
+1.Te shtohen animacione ne landing page (primare) dhe faqe tjera (sekondare), pershkak se momentin qe hyn ne faqe shihet vetem texti si me poshte dhe duhet dicka per te u dite qe faqja vazhdon poshte, ose ndonje animacion qe e “fade out” kete screen te kaltert (ndoshta edhe nje slideshow i fotove kishte funksionu).
+DONE
+
+2.Kompanite te levizin konstant ne landing page, te heqet funksioni me ‘arrows’, dhe te jene sikur slide show ngadale.
+DONE
+
+3.Te behen add kompanite edhe ne faqen “about us” (ketu vendosen kompanite me “arrows” function dhe nuk levizin konstant) Nese click ndonjeren prej kompanive te dergon tek website i kompanise (nese ka), ose ndonje news source duke fole per te (nese nuk ka web).
+DONE
+
+4.Te vendosen tags/categories per news.
+
+5.Tek our investments ne “about us” page, sektoret te jene “clickable”, momentin kur i click me te dergu tek latest news per kompanite ne ate sektore ne baze te filtrave/tags qe vendosen ne news page.
+(kur te click psh finance, me te qu te krejt news qe e kan tagun/kategorine e #finance)
+
+6.Tek “News” ne header me qene kategorite e sektoreve kur “hover” qe me mujt me zgjedh per cilein sektor, ose me porek vetem “news” dhe te dalin te gjitha lajmet te pa filtruara. Ose te jete sistemi i filtrimit sikurse blueowl (https://www.blueowl.com/news)
+(si te bluew owl me bo)
+
+7.Te largohet fotoja ne te djatht te “our current investments”, dhe te behet center texti i “our current investments”
+DONE
+
+8.Me shtu nje faqe per CSR te kompanise, me qene mundesia me edit ne CSS edhe me pase vend per foto. Me qene e ndame ne kategori (p.sh. renewable energy, foundations etc) qe me mujt me edit me vone ose me mujt me shtu kategori te reja. Ndarja te jete me dy ngjyra per sektor (rendi i pare bardhe, rendi tjeter kaltert) te CSR impact (sikur https://www.blueowl.com/sustainability)
+\*naj shpjegon patriku
+
+9.Ne CSS me qene mundesia me nderru te gjitha tekstet, fotot dhe lajmet.
+
+Pytje per Patrikun: 3. Cilat kompani kane website dhe me mi dergu links

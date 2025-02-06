@@ -10,8 +10,14 @@ import Finance from "./pages/Categories/Finance/Finance.jsx";
 import Technology from "./pages/Categories/Technology/Technology.jsx";
 import MeetTheTeam from "./pages/MeetTheTeam/MeetTheTeam.jsx";
 import ScrollTop from "./utils/ScrollTop.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <div className="">

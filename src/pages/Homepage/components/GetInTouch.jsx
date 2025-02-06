@@ -1,5 +1,10 @@
 import React from "react";
-import { IconArrowRight, IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
+import {
+  IconArrowRight,
+  IconMail,
+  IconMapPin,
+  IconPhone,
+} from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 
 export default function GetInTouch() {
@@ -7,8 +12,14 @@ export default function GetInTouch() {
     <div className="bg-slate-100">
       <div className="page-container  py-24 text-4xl">
         <div className="md:pl-[10%] lg:pl-[20%] space-y-2 text-3xl md:text-4xl lg:text-5xl">
-          <h1 className=" text-primary ">Want to know more about us?</h1>
-          <h1 className=" flex  text-gold ">
+          <h1 className=" text-primary " data-aos="fade-right">
+            Want to know more about us?
+          </h1>
+          <h1
+            className=" flex  text-gold "
+            data-aos="fade-left"
+            // data-aos-delay="500"
+          >
             Meet the team behind Eagle Capital
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +40,10 @@ export default function GetInTouch() {
             </svg> */}
           </h1>
           <Link to="/meet-the-team">
-            <button className="px-3 bg-white py-1.5 border-2 mt-5 text-base items-center gap-2 hover:gap-5 duration-150 rounded-full border-primary flex">
+            <button
+              className="px-3 bg-white py-1.5 border-2 mt-5 text-base items-center gap-2 hover:gap-5 duration-150 rounded-full border-primary flex"
+              data-aos="slide-up"
+            >
               View more <IconArrowRight size={18} />
             </button>
           </Link>

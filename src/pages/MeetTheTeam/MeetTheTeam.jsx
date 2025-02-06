@@ -9,10 +9,18 @@ export default function MeetTheTeam() {
           <div className="flex-1 flex-col py-6 justify-center flex  md:pr-24">
             <div className="">
               <div className="space-y-4 font-light text-5xl md:text-8xl ">
-                <h1 className="text-secondary">Meet the team that’s changing the way people live.</h1>
+                <h1 className="text-secondary" data-aos="fade-right">
+                  Meet the team that’s changing the way people live.
+                </h1>
               </div>
-              <h1 className="text-2xl font-light leading-9 max-w-[800px] text-primary ps-12 ml-auto pt-12">
-                Our team is dedicated to fostering meaningful connections, bridging gaps, and bringing people closer together. Through innovation and collaboration, we strive to create an impact in
+              <h1
+                className="text-2xl font-light leading-9 max-w-[800px] text-primary ps-12 ml-auto pt-12"
+                data-aos="fade-right"
+                data-aos-delay="500"
+              >
+                Our team is dedicated to fostering meaningful connections,
+                bridging gaps, and bringing people closer together. Through
+                innovation and collaboration, we strive to create an impact in
                 the communities we serve.
               </h1>
             </div>
