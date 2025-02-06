@@ -1,5 +1,6 @@
 import OurServices from "../Homepage/components/OurServices.jsx";
 import StaticCompanySlider from "../Homepage/components/StaticCompanySlider.jsx";
+import current_investments from "../../data/current_investments";
 
 export default function AboutUs() {
   return (
@@ -81,55 +82,25 @@ export default function AboutUs() {
           </div>
           <div className="page-container">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-              <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
-                <h1 className="text-2xl">Financial Sector</h1>
-                <p className="text-gray-300">
-                  We currently hold controlling stake in two licensed financial
-                  institutions, including one Commercial Bank and one NonBank
-                  Financial Institution and one Mortgage Institution in the
-                  United States (establishment ongoing)
-                </p>
-              </div>
-              <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
-                <h1 className="text-2xl">Real Estate</h1>
-                <p className="text-gray-300">
-                  Prime real estate in costal areas of the Ionian Sea in
-                  Albania; Two Real Estate Developments in Pristina, Kosovo and
-                  Premium Mansion in the Heart of Manhattan, New York.
-                </p>
-              </div>
-              <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
-                <h1 className="text-2xl">Technology</h1>
-                <p className="text-gray-300">
-                  A revolutionary super app (Bobby), servicing the New York City
-                  area (confidential at this point).
-                </p>
-              </div>
-              <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
-                <h1 className="text-2xl">Tourism & Transportation</h1>
-                <p className="text-gray-300">
-                  We control the managment and investment in the biggest players
-                  in Tourism and Transportation sectors in SEE.
-                </p>
-              </div>
-              <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
-                <h1 className="text-2xl">Renewbale Energy</h1>
-                <p className="text-gray-300">
-                  An ongoing 100 M W Wind Energy project (under development) in
-                  Southern Albania.
-                </p>
-              </div>
-              <div className="p-4  bg-secondary bg-opacity-50 space-y-5">
-                <h1 className="text-2xl">Medical</h1>
-                <p className="text-gray-300">
-                  An ongoing development in Prilep, Macedonia focusing in
-                  production of high quality raw medical materials Tech
-                  (confidential at this point).
-                </p>
-              </div>
+              {current_investments.map((current_investment, index) => (
+                <div
+                  key={index}
+                  className="p-4 bg-secondary bg-opacity-50 space-y-5 transition-transform duration-500 ease-in-out opacity-0"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay={(index + 1) * 150}
+                  data-aos-easing="ease-out"
+                >
+                  <h1 className="text-2xl">{current_investment.title}</h1>
+                  <p className="text-gray-300">
+                    {current_investment.description}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
+
         <OurServices />
         <StaticCompanySlider />
         {/* OUR CURREN INVESTMENTS SECTION */}
@@ -141,12 +112,20 @@ export default function AboutUs() {
               </h1>
               <div className="space-y-12">
                 <div className="space-y-5">
-                  <h1 className="text-2xl">
+                  <h1
+                    className="text-2xl"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
                     Eagle Capital employs a rigorous investment strategy that
                     emphasizes security, long-term value creation, and
                     sustainability. We specialize in:
                   </h1>
-                  <div className="pl-5 flex flex-col gap-5">
+                  <div
+                    className="pl-5 flex flex-col gap-5"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
                     <p>
                       Financial Institutions: Investing in well-established,
                       licensed financial entities that demonstrate consistent
@@ -167,8 +146,18 @@ export default function AboutUs() {
                   </div>
                 </div>
                 <div className="space-y-5">
-                  <h1 className="text-2xl">Regions of Focus</h1>
-                  <div className="pl-5 flex flex-col gap-5">
+                  <h1
+                    className="text-2xl"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
+                    Regions of Focus
+                  </h1>
+                  <div
+                    className="pl-5 flex flex-col gap-5"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
                     <p>
                       South Eastern Europe: We are deeply entrenched in the
                       local markets of South Eastern Europe, enabling us to
