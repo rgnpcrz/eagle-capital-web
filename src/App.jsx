@@ -5,6 +5,7 @@ import Footer from "./components/Footer.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import NewsPage from "./pages/NewsPage/NewsPage.jsx";
+import NewsItem from "./components/NewsItem.jsx";
 import RealEstate from "./pages/Categories/RealEstate/RealEstate.jsx";
 import Finance from "./pages/Categories/Finance/Finance.jsx";
 import Technology from "./pages/Categories/Technology/Technology.jsx";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/news" element={<NewsPage />} />
+          <Route path="/news_item/:id" element={<NewsItem />} />
           <Route path="/real-estate" element={<RealEstate />} />
           <Route path="/finance" element={<Finance />} />
           <Route path="/technology" element={<Technology />} />
