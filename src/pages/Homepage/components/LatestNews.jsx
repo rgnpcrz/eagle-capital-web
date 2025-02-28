@@ -1,4 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const newsData = [
   {
@@ -64,9 +65,11 @@ export default function News() {
                 <div className="flex-grow">
                   <p className="pb-5">{item.date}</p>
                   <h3 className="text-2xl font-medium">{item.title}</h3>
-                  <button className="mt-3 flex items-center gap-2 pt-8 text-lightBlack">
-                    Read More <BsArrowRight />
-                  </button>
+                  <Link to={`/news_item/${item.id}`}>
+                    <button className="mt-3 flex items-center gap-2 pt-8 text-lightBlack">
+                      Read More <BsArrowRight />
+                    </button>
+                  </Link>
                   <hr className="h-0.5 my-10 bg-silver"></hr>
                 </div>
               </div>
