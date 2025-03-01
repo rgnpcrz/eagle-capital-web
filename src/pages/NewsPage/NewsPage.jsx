@@ -37,7 +37,7 @@ const newsData = [
     id: 4,
     date: "October 22, 2023",
     title:
-      "Providing strategic guidance and seamless execution for mergers, acquisitions, and corporate restructuring.",
+      "Sophisticated financial modeling to forecast, analyze, and optimize business performance.",
     category: "Mergers",
   },
   {
@@ -54,6 +54,27 @@ const newsData = [
       "Comprehensive legal solutions to safeguard and advance your commercial interests.",
     category: "Legal",
   },
+  // {
+  //   id: 7,
+  //   date: "October 22, 2022",
+  //   title:
+  //     "Sophisticated financial modeling to forecast, analyze, and optimize business performance.",
+  //   category: "Mergers",
+  // },
+  // {
+  //   id: 8,
+  //   date: "June 7, 2022",
+  //   title:
+  //     "End-to-end project planning and execution tailored to meet specific business objectives.",
+  //   category: "Real Estate",
+  // },
+  // {
+  //   id: 9,
+  //   date: "August 3, 2022",
+  //   title:
+  //     "Comprehensive legal solutions to safeguard and advance your commercial interests.",
+  //   category: "Legal",
+  // },
 ];
 
 export default function NewsPage() {
