@@ -53,9 +53,9 @@ export default function News() {
             {newsData.slice(1).map((item, index) => (
               <div key={index} className="mb-8 flex flex-col md:flex-row gap-6">
                 {/* Image Container */}
-                <div className="w-80 h-52 bg-slate-300 rounded-lg flex-shrink-0 flex items-center justify-center overflow-hidden p-2">
+                <div className="w-80 h-52 bg-slate-300 rounded-lg flex-shrink-0 flex items-center justify-center overflow-hidden">
                   <img
-                    src={item.image}
+                    src="/images/news/test1.png"
                     alt="Dynamic img will be added here"
                     className="w-full h-full object-cover"
                   />
