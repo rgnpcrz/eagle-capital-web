@@ -11,7 +11,7 @@ const images = [
 
 export default function Banner() {
   return (
-    <div className="bg-primary text-white relative min-h-screen flex items-center">
+    <div className="bg-primary text-white relative min-h-[60vh] md:min-h-screen flex items-center">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -34,7 +34,7 @@ export default function Banner() {
       <div className="absolute inset-0 bg-primary bg-opacity-50 z-10"></div>
 
       {/* Content Wrapper */}
-      <div className="relative z-10 page-container mx-auto flex flex-col px-3 -mt-16 pt-16 min-h-screen py-12">
+      <div className="relative z-10 page-container mx-auto flex flex-col px-3 -mt-16 pt-32 min-h-[60vh] md:min-h-screen py-12">
         <div className="flex-1 flex-col py-6 justify-center flex md:pr-24">
           <div>
             <div

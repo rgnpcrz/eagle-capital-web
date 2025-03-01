@@ -52,10 +52,6 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-
-          {/* <div>
-            <img className="w-full" src={bannerImg} />
-          </div> */}
         </div>
         <div className="page-container py-24">
           <div className="aspect-[10/4] bg-silver text-gold flex items-center justify-center">
