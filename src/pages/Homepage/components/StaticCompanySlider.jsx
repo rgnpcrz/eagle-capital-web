@@ -62,11 +62,13 @@ export default function StaticCompanySlider() {
                   ref={index === 0 ? scrollItemRef : null}
                   className="flex-shrink-0 w-full relative border-silver  lg:w-[350px] snap-center flex items-center justify-center  "
                 >
-                  <img
-                    className="aspect-video my-6 w-[200px] object-contain max-h-[2000px] "
-                    src={company.image}
-                    alt={company.name}
-                  />
+                  <a href={company.link} target="_blank">
+                    <img
+                      className="aspect-video my-6 w-[200px] object-contain max-h-[2000px] "
+                      src={company.image}
+                      alt={company.name}
+                    />
+                  </a>
                   {/* <div className="absolute bottom-0 text-sm font-normal">{company.category}</div> */}
                 </div>
               ))}
