@@ -3,6 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: { smd: "400px" },
+
       colors: {
         // primary: "#041e2b",
         // secondary: "#042842",
