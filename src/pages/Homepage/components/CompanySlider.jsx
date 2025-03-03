@@ -22,28 +22,29 @@ export default function CompanySlider() {
           <div className="relative w-full">
             <Swiper
               modules={[Autoplay]}
-              spaceBetween={20} // Adjust spacing
-              slidesPerView={2} // Default slides visible
-              loop={true} // Infinite loop
+              spaceBetween={30} // Set a fixed minimum spacing
+              slidesPerView={1}
+              loop={true}
               autoplay={{
-                delay: 0, // No delay between slides
-                disableOnInteraction: true, // Keep auto-moving even when interacted with
+                delay: 0,
+                disableOnInteraction: false,
               }}
-              speed={5000} // Smooth continuous effect (adjust speed as needed)
+              speed={5000}
               breakpoints={{
-                768: { slidesPerView: 3 }, // 3 slides on tablets
-                1024: { slidesPerView: 4 }, // 4 slides on desktops
+                640: { slidesPerView: 2, spaceBetween: 60 }, // Fixed 30px spacing
+                768: { slidesPerView: 3, spaceBetween: 60 }, // Fixed 30px spacing
+                1024: { slidesPerView: 4, spaceBetween: 60 }, // Fixed 30px spacing
               }}
               className="no-scrollbar"
             >
               {companies.concat(companies).map((company, index) => (
                 <SwiperSlide
                   key={index}
-                  className="flex-shrink-0 w-full relative border-silver lg:w-[350px] snap-center flex items-center justify-center"
+                  className="flex-shrink-0 min-w-[250px] w-full relative border-silver snap-center flex items-center justify-center"
                 >
                   <a href={company.link} target="_blank">
                     <img
-                      className="aspect-video my-6 w-[200px] object-contain max-h-[2000px]"
+                      className="aspect-video my-6 w-[230px] object-contain max-h-[2000px]"
                       src={company.image}
                       alt={company.name}
                     />
