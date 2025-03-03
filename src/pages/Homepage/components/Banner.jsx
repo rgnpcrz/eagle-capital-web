@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 
 const images = [
-  "../../../../public/images/cover/moon.jpg",
-  "../../../../public/images/cover/banner.webp",
-  "../../../../public/images/cover/real-estate.webp",
+  "/images/cover/moon.jpg",
+  "/images/cover/banner.webp",
+  "/images/cover/real-estate.webp",
 ];
 
 export default function Banner() {
