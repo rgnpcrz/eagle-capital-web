@@ -6,13 +6,13 @@ export default function TheFirm() {
       <div className="bg-slate-200">
         <div className="page-container mx-auto px-3 py-12 text-sm">
           <div className="flex justify-between items-center">
-            <div className="flex items-center w-64">
+            {/* <div className="flex items-center w-64">
               <p className="text-xl">The Firm</p>
-              {/* <hr className="w-16 h-0.5 bg-primary flex-1 ms-3"></hr> */}
-            </div>
+              <hr className="w-16 h-0.5 bg-primary flex-1 ms-3"></hr>
+            </div> */}
             {/* <button className="px-3 py-1.5 border-2 rounded-full border-primary">View more</button> */}
           </div>
-          <div className=" mx-auto py-24 max-w-3xl flex flex-col gap-8 items-center text-center">
+          <div className=" mx-auto py-16 max-w-3xl flex flex-col gap-8 items-center text-center">
             <h1 className="text-4xl" data-aos="zoom-out">
               About us
             </h1>

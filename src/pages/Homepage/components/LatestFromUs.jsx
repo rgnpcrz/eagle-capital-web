@@ -26,7 +26,7 @@ export default function LatestFromUs() {
 
           <div className="grid md:grid-cols-2 justify-between gap-8">
             <div className="flex gap-12 flex-col justify-between">
-              <div className="" data-aos="fade-right">
+              <div className="">
                 <h1 className="text-4xl">Our mission</h1>
                 <p className=" text-base pt-12 lg:pr-32">
                   Our mission is to generate substantial returns for our
@@ -38,14 +38,14 @@ export default function LatestFromUs() {
                 </p>
               </div>
 
-              <div data-aos="fade-right">
+              <div data-aos="slide-up">
                 <LinkButtonOutline text="Learn More" link="/about-us" />
               </div>
               {/* <button className="border-2 p-0.5 border-white rounded-full">
                     <IconArrowRight size={18} />
                   </button> */}
             </div>
-            <div className="flex items-center " data-aos="fade-left">
+            <div className="flex items-center ">
               <img className="object-cover w-full h-full" src={latest} />
             </div>
           </div>

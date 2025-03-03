@@ -34,7 +34,7 @@ const newsData = [
     id: 5,
     date: "August 3, 2023",
     title:
-      "Expertise in developing residential, commercial, and mixed-use properties with precision. Sophisticated financial modeling to forecast, analyze, and optimize business performance.",
+      "Expertise in developing residential, commercial, and mixed-use properties with precision.",
     category: "Real Estate",
   },
 ];
@@ -53,7 +53,7 @@ export default function News() {
             {newsData.slice(1).map((item, index) => (
               <div key={index} className="mb-8 flex flex-col md:flex-row gap-6">
                 {/* Image Container */}
-                <div className="w-80 h-52 bg-slate-300 rounded-lg flex-shrink-0 flex items-center justify-center overflow-hidden">
+                <div className=" w-full smd:max-w-[300px] h-52 bg-slate-300 rounded-lg flex-shrink-0 flex items-center justify-center overflow-hidden">
                   <img
                     src="/images/news/test1.png"
                     alt="Dynamic img will be added here"
@@ -64,7 +64,9 @@ export default function News() {
                 {/* News Content */}
                 <div className="flex-grow">
                   <p className="pb-5">{item.date}</p>
-                  <h3 className="text-2xl font-medium">{item.title}</h3>
+                  <h4 className="text-xl font-small md:font-medium">
+                    {item.title}
+                  </h4>
                   <Link to={`/news_item/${item.id}`}>
                     <button className="mt-3 flex items-center gap-2 pt-8 text-lightBlack">
                       Read More <BsArrowRight />
