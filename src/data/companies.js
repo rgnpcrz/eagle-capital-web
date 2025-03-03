@@ -3,6 +3,7 @@ const companies = [
     name: "bobby",
     category: "Technology",
     image: "/images/companies/svg/bobby.svg",
+    link: "",
   },
   {
     name: "beverly-park",
@@ -28,6 +29,7 @@ const companies = [
     name: "evergreen-valley",
     category: "Real Estate",
     image: "/images/companies/svg/evergreen.svg",
+    link: "https://evergreenvalleys.com/",
   },
   {
     name: "green-medical",
@@ -43,11 +45,13 @@ const companies = [
     name: "noa",
     category: "Finance",
     image: "/images/companies/svg/noa.svg",
+    link: "https://www.noafin.al/",
   },
   {
     name: "prishtina-city-center",
     category: "Real Estate",
     image: "/images/companies/svg/pcc.svg",
+    link: "https://pristinacitycenter.com/",
   },
   {
     name: "rbko-head-office",

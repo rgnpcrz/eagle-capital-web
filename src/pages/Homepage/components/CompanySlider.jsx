@@ -27,7 +27,7 @@ export default function CompanySlider() {
               loop={true} // Infinite loop
               autoplay={{
                 delay: 0, // No delay between slides
-                disableOnInteraction: false, // Keep auto-moving even when interacted with
+                disableOnInteraction: true, // Keep auto-moving even when interacted with
               }}
               speed={5000} // Smooth continuous effect (adjust speed as needed)
               breakpoints={{
@@ -41,11 +41,13 @@ export default function CompanySlider() {
                   key={index}
                   className="flex-shrink-0 w-full relative border-silver lg:w-[350px] snap-center flex items-center justify-center"
                 >
-                  <img
-                    className="aspect-video my-6 w-[200px] object-contain max-h-[2000px]"
-                    src={company.image}
-                    alt={company.name}
-                  />
+                  <a href={company.link} target="_blank">
+                    <img
+                      className="aspect-video my-6 w-[200px] object-contain max-h-[2000px]"
+                      src={company.image}
+                      alt={company.name}
+                    />
+                  </a>
                 </SwiperSlide>
               ))}
             </Swiper>
