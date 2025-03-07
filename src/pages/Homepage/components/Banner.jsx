@@ -25,13 +25,13 @@ export default function Banner() {
           <SwiperSlide key={index}>
             <div
               className="w-full h-full bg-cover bg-center"
-              style={{ backgroundImage: `url(${src})` }}
+              style={{ backgroundColor: "#042842" }}
             />
           </SwiperSlide>
         ))}
       </Swiper>
 
-      <div className="absolute inset-0 bg-primary bg-opacity-50 z-10"></div>
+      <div className="absolute inset-0 bg-primary z-10"></div>
 
       {/* Content Wrapper */}
       <div className="relative z-10 page-container mx-auto flex flex-col px-3 -mt-16 pt-16 min-h-screen py-12">
