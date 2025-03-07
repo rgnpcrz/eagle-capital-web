@@ -11,7 +11,7 @@ export default function Homepage() {
     <>
       <Banner />
       <TheFirm />
-      <LatestNews />
+      {/* <LatestNews /> */}
       {/* <OurCompany /> */}
       <CompanySlider />
       <OurServices />

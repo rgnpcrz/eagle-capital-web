@@ -22,7 +22,7 @@ export default function CompanySlider() {
           <div className="relative w-full">
             <Swiper
               modules={[Autoplay]}
-              spaceBetween={30} // Set a fixed minimum spacing
+              spaceBetween={30}
               slidesPerView={1}
               loop={true}
               autoplay={{
@@ -31,9 +31,9 @@ export default function CompanySlider() {
               }}
               speed={5000}
               breakpoints={{
-                640: { slidesPerView: 2, spaceBetween: 60 }, // Fixed 30px spacing
-                768: { slidesPerView: 3, spaceBetween: 60 }, // Fixed 30px spacing
-                1024: { slidesPerView: 4, spaceBetween: 60 }, // Fixed 30px spacing
+                640: { slidesPerView: 2, spaceBetween: 60 },
+                768: { slidesPerView: 3, spaceBetween: 60 },
+                1024: { slidesPerView: 4, spaceBetween: 60 },
               }}
               className="no-scrollbar"
             >

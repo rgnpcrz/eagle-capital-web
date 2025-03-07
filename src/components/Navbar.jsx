@@ -41,7 +41,7 @@ export default function Navbar() {
       >
         <div className=" gap-5   flex flex-col " onClick={toggleMenu}>
           <Link to="/">Homepage</Link>
-          <Link to="/news">News</Link>
+          {/* <Link to="/news">News</Link> */}
           {/* <Link to="/real-estate">Real Estate</Link>
           <Link to="/finance">Finance</Link>
           <Link to="/technology">Technology</Link> */}
@@ -64,7 +64,7 @@ export default function Navbar() {
             </Link>
             <div className=" gap-10 hidden lg:flex ">
               <Link to="/">Homepage</Link>
-              <Link to="/news">News</Link>
+              {/* <Link to="/news">News</Link> */}
               {/* <Link to="/real-estate">Real Estate</Link>
           <Link to="/finance">Finance</Link>
           <Link to="/technology">Technology</Link> */}
