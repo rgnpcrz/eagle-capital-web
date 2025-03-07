@@ -8,25 +8,14 @@ export default function AboutUs() {
         <div className=" bg-slate-100 ">
           <div className="page-container mx-auto flex flex-col px-3 -mt-16 pt-16  min-h-screen  py-12">
             <div className="flex-1 flex-col py-6 justify-center flex  md:pr-24">
-              <div
-                className="absolute inset-0"
-                style={{
-                  backgroundImage:
-                    "url('../../../../public/images/cover/about.jpg')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                }}
-              />
-              <div className="absolute inset-0 bg-primary bg-opacity-50"></div>
               <div className="">
                 <div className="space-y-4 font-light text-5xl md:text-8xl ">
-                  <h1 className="text-white" data-aos="fade-right">
+                  <h1 className="text-secondary" data-aos="fade-right">
                     More about Eagle Capital
                   </h1>
                 </div>
                 <h1
-                  className="text-2xl font-light leading-9 text-white max-w-[800px] ps-12 ml-auto pt-12"
+                  className="text-2xl font-light leading-9 text-secondary max-w-[800px] ps-12 ml-auto pt-12"
                   data-aos="fade-right"
                   data-aos-delay="500"
                 >
